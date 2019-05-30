@@ -1,0 +1,60 @@
+/* ----------------------------------Meta Level */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------Special Colours */
+
+
+
+
+/* ----------------------------------Special Paddings~Margins~Text */
+
+
+
+
+/* ----------------------------------The Header */
+
+header {
+    text-align: center;
+    background-color: #CFCDBF;
+}
+
+header p span {
+    color: #A51723;
+}
+
+.new-album-cta {
+    color: white;
+    font-size: .8em;
+    /*white-space: nowrap;*/
+}
+
+.music-player {}
+
+
+/* ----------------------------------Navbar */
+
+.navbar {}
+
+
+/* ----------------------------------The Section */
+
+
+
+
+/* ----------------------------------The Footer */
+
+
+
+
+/* ----------------------------------Media Queries */
+
+/*@media (min-width: 576px) {*/
+/*.new-album-cta {*/
+/*display: none;*/
+/*}*/
+/*}*/
