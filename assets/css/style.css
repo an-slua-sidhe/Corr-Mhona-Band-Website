@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #D9D4BF;
 }
 
 /* ----------------------------------Special Colours */
@@ -18,28 +19,28 @@ body {
 
 /* ----------------------------------The Header */
 
-header {
-    text-align: center;
-    background-color: #CFCDBF;
-}
+header {}
 
-header p span {
-    color: #A51723;
-}
+.landing-page-top {}
 
-.new-album-cta {
-    color: white;
-    font-size: .8em;
-    /*white-space: nowrap;*/
-}
+.cta-mobile {}
 
 .music-player {}
+
+.landing-page-bottom {}
+
+.hero-image {}
+
+.cta-desktop {}
 
 
 /* ----------------------------------Navbar */
 
-.navbar {}
+.navbar {
+    color: black;
+}
 
+.nav-item {}
 
 /* ----------------------------------The Section */
 
@@ -51,10 +52,4 @@ header p span {
 
 
 
-/* ----------------------------------Media Queries */
-
-/*@media (min-width: 576px) {*/
-/*.new-album-cta {*/
-/*display: none;*/
-/*}*/
-/*}*/
+/* ----------------------------------Media Queries */ 
