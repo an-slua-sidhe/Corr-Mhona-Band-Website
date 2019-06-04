@@ -18,49 +18,42 @@
 		<!--Landing Page Top-->
 
 		<!--Nav/Navbar-->
-		<nav class="navbar navbar-expand-sm navbar-light" style="background-color: #CFCDBF;">
-			
-			<!--<a class="navbar-brand" href="#">Corr Mhóna</a>-->
-			
+		<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #CFCDBF;">
+
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span></button>
 
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				
+
 				<ul class="navbar-nav mr-auto">
-					<li class="active nav-item">
+					<li class="active nav-item mr-3">
 						<a class="nav-link" style="color: #A51723" href="/">Home<span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mr-3">
 						<a class="nav-link text-nowrap" href="#">The Band</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mr-3">
 						<a class="nav-link" href="#">Discography</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mr-3">
 						<a class="nav-link" href="#">Contact</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mr-3">
 						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><s>Shop</s></a>
 					</li>
 				</ul>
-				
-			<!--<form class="form-inline my-2 my-lg-0">-->
-			<!--	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-			<!--	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-			<!--</form>-->
-				
+
 			</div>
 			
-		</nav>	
-		
-		<!--Music Player-->
-		<div class="container">
-			<div class="row">	
-				<div class="col offset-md-8 text-center text-nowrap music-player">MUSIC PLAYER</div>
-			</div>
-		</div>
-			
+			<text class="mr-2">New album! Try a taster track in the player to the <span>right!</span></text>
+
+			<audio class="music-player" controls="controls" preload="metadata">
+				<source src="assets/audio/banda.mp3" type="audio/mp3">
+				<source src="assets/audio/slaine.mp3" type="audio/mp3">
+				Your browser doesn't support this media player! :(
+			</audio>
+
+		</nav>
 
 		<!--Landing Page Bottom-->
 		<div class="container-fluid landing-page-bottom">
@@ -78,7 +71,7 @@
 			<!--<div class="container-fluid cta">-->
 			<!--	<div class="row">-->
 			<!--		<div class="col-12">-->
-						<!--Insert same text as above (mobile version) here-->
+			<!--Insert same text as above (mobile version) here-->
 			<!--		</div>-->
 			<!--	</div>-->
 			<!--</div>-->
