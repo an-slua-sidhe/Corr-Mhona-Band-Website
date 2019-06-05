@@ -7,11 +7,10 @@ body {
     background-color: #D9D4BF;
 }
 
+
 /* ----------------------------------Special Colours */
 
-text span {
-    color: #A51723;
-}
+
 
 
 /* ----------------------------------Special Paddings~Margins~Text */
@@ -42,6 +41,10 @@ header {}
 
 .cta-desktop {}
 
+.gaeilge {
+    text-decoration: none;
+    color: #A51723!important;
+}
 
 /* ----------------------------------Navbar */
 
@@ -69,20 +72,27 @@ header {}
 /* ----------------------------------Media Queries */ 
 
 @media(max-width: 575px) {
-    .music-player {
-        height: 5px;
-        transform: translateY(-600%);
-    }
     .nav-item {
     border: none;
     border-radius: 0;
     background-color: #CFCDBF;
     }
-
 }
 
-@media(max-width: 410px) {
+@media(max-width: 460px) {
     audio {
-        width: 250px;
+        width: 200px;
+    }
+}
+
+@media(max-width: 360px) {
+    .gaeilge {
+        display: none;
+    }
+}
+
+@media(max-width: 290px) {
+    audio {
+        display: none;
     }
 }
