@@ -30,8 +30,6 @@ header {}
 
 .landing-page-bottom {
     padding: 100px 50px 50px;
-    /*height: 1000px;*/
-    /*width: 100%;*/
     background-color: grey;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -43,19 +41,43 @@ header {}
 
 .gaeilge {
     text-decoration: none;
-    color: #A51723!important;
+    color: #73715F;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.gaeilge:hover {
+    text-decoration: none;
+    color: #A51723;
 }
 
 /* ----------------------------------Navbar */
 
-.navbar {
-    color: black;
-}
+.navbar {}
 
 .nav-item {
     border: .5px solid #707070;
     border-radius: 5px;
     background-color: #D9D4BF;
+    
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #73715F;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+} 
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #A51723;
+}
+
+.navbar .navbar-nav .nav-item a:active {
+    color: #A51723;
 }
 
 
@@ -68,22 +90,33 @@ header {}
 
 footer {
     padding-top: 15px;
-    min-height: 50px;
     background-color: #CFCDBF;
 }
 
 .copyright-text {
-    padding-top: 5px;
-    font-size: 12px;
+    padding-top: 10px;
+    color: #73715F;
+    opacity: 0.8;
+    /*font-size: 14px;*/
 }
 
 .social-media-links {}
 
 .social-media-links li a i {
-    height: 20px;
-    width: 20px;
+    padding: 15px 12px 0px;
+    line-height: 10px;
+    color: #73715F;
+    background: #CFCDBF;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-media-links li a i:hover {
     color: #A51723;
 }
+
 
 /* ----------------------------------Media Queries */ 
 
