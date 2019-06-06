@@ -10,13 +10,7 @@ body {
 
 /* ----------------------------------Special Colours */
 
-
-
-
 /* ----------------------------------Special Paddings~Margins~Text */
-
-
-
 
 /* ----------------------------------The Header */
 
@@ -24,18 +18,20 @@ header {}
 
 .landing-page-top {}
 
-.cta-mobile {}
+.cta {
+    background-color: white;
+}
 
 .music-player {}
 
 .landing-page-bottom {
-    padding: 100px 50px 50px;
-    background-color: grey;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
-.hero-image {}
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
 
 .cta-desktop {}
 
@@ -53,6 +49,9 @@ header {}
     color: #A51723;
 }
 
+.banner-logo {}
+
+
 /* ----------------------------------Navbar */
 
 .navbar {}
@@ -61,7 +60,7 @@ header {}
     border: .5px solid #707070;
     border-radius: 5px;
     background-color: #D9D4BF;
-    
+
 }
 
 .navbar .navbar-nav .nav-item a {
@@ -70,21 +69,14 @@ header {}
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-} 
+}
 
 .navbar .navbar-nav .nav-item a:hover {
     color: #A51723;
 }
 
-.navbar .navbar-nav .nav-item a:active {
-    color: #A51723;
-}
-
 
 /* ----------------------------------The Section */
-
-
-
 
 /* ----------------------------------The Footer */
 
@@ -118,13 +110,26 @@ footer {
 }
 
 
-/* ----------------------------------Media Queries */ 
+/* ----------------------------------Media Queries */
 
 @media(max-width: 575px) {
     .nav-item {
-    border: none;
-    border-radius: 0;
-    background-color: #CFCDBF;
+        border: none;
+        border-radius: 0;
+        background-color: #CFCDBF;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    .social-media-links {
+        text-align: center;
+    }
+    
+    .social-media-links li a i {
+        font-size: 20px;
+        padding: 7px 10px 10px;
     }
 }
 
@@ -143,16 +148,5 @@ footer {
 @media(max-width: 290px) {
     audio {
         display: none;
-    }
-}
-
-@media(max-width: 575px) {
-    .copyright-text {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .social-media-links {
-        text-align: center;
     }
 }
