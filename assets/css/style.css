@@ -14,11 +14,9 @@ header {}
 .landing-page-top {}
 
 .gaeilge-container {
-    text-align: right;
 }
 
 .gaeilge {
-    text-align: right;
     text-decoration: none;
     color: #181818;
     transition: all 0.3s ease-in-out;
@@ -33,9 +31,9 @@ header {}
 }
 
 .music-container {
-    text-align: right;
+    text-align: center;
     padding: 0;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .music-player {
@@ -43,7 +41,8 @@ header {}
 }
 
 .music-player-text {
-    margin: 2px 35px 0px 0px;
+    /* text-align: left; */
+    /* margin: 2px 35px 0px 0px; */
     color: #A51723;
 }
 
@@ -121,10 +120,14 @@ footer {
 
 /* ----------------------------------Media Queries */
 
-@media(min-width: 1200px) {
-    .hero-image img {
-        position: relative;
-        top: -55px;
+/* This is unecessary with the larger image */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .gaeilge {
+        margin-right: -15px;
+    }
+
+    .music-container {
+        margin-right: -20px;
     }
 }
 
@@ -132,9 +135,19 @@ footer {
     .navbar .navbar-nav .nav-item {
         margin-bottom: 70px;
     }
+
+    .gaeilge-container {
+        padding-top: 10px;
+    }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 767px) {    
+    .nav-item {
+        border: none;
+        border-radius: 0;
+        background-color: none;
+    }
+    
     .copyright-text {
         padding-top: 0px;
     }
@@ -146,12 +159,6 @@ footer {
 }
 
 @media(max-width: 575px) {
-    .nav-item {
-        border: none;
-        border-radius: 0;
-        background-color: none;
-    }
-
     .gaeilge {
         display: none;
     }
@@ -169,11 +176,3 @@ footer {
         padding: 7px 10px 10px;
     }
 }
-
-/* This media query is to be re-introduced if I find out how to target the burger icon dropdownmenu expansion specifically */
-
-/* @media(max-width: 460px) {
-    .gaeilge {
-        font-size: 10px;
-    }
-} */
