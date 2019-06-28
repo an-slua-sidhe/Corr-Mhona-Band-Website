@@ -17,76 +17,79 @@
 
 	<header>
 
-		<!--Landing Page Top-->
+		<div class="jumbotron jumbotron-fluid">
 
-		<!--Navbar-->
-		<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: none;">
+			<!--Landing Page Top-->
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span></button>
+			<!--Navbar-->
+			<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: none;">
 
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span></button>
 
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-3">
-						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link text-nowrap" href="bio.html">The Band</a>
-					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link" href="disc.html">Discography</a>
-					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link disabled" href="/" tabindex="-1" aria-disabled="true"><s>Shop</s></a>
-					</li>
-				</ul>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-			</div>
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item mr-3">
+							<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link text-nowrap" href="bio.html">The Band</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link" href="disc.html">Discography</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link disabled" href="/" tabindex="-1" aria-disabled="true"><s>Shop</s></a>
+						</li>
+					</ul>
 
-			<div class="container mb-lg-auto col-sm-10 col-md-2 gaeilge-container">
-				<div class="row ml-auto">
-					<div class="col">
-						<a href="/" class='gaeilge'>Gaeilge</a>
-					</div>
 				</div>
-			</div>
 
-			<div class="container d-none d-lg-block col-lg-4 col-xl-3 music-container">
-
-				<div class="row">
-					<div class="col">
-						<audio class="music-player" controls="controls" preload="metadata">
-							<source src="assets/audio/dair.mp3" type="audio/mp3">
-							<source src="assets/audio/dair.ogg" type="audio/ogg">
-							Your browser doesn't support this media player! :(
-						</audio>
+				<div class="container mb-lg-auto col-sm-10 col-md-2 gaeilge-container">
+					<div class="row ml-auto">
+						<div class="col">
+							<a href="/" class='gaeilge'>Gaeilge</a>
+						</div>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col">
-						<p class="music-player-text"><em>New album sample track above!</em></p>
+				<div class="container d-none d-lg-block col-lg-4 col-xl-3 music-container">
+
+					<div class="row">
+						<div class="col">
+							<audio class="music-player" controls="controls" preload="metadata">
+								<source src="assets/audio/dair.mp3" type="audio/mp3">
+								<source src="assets/audio/dair.ogg" type="audio/ogg">
+								Your browser doesn't support this media player! :(
+							</audio>
+						</div>
 					</div>
+
+					<div class="row">
+						<div class="col">
+							<p class="music-player-text"><em>New album sample track above!</em></p>
+						</div>
+					</div>
+
 				</div>
 
-			</div>
+			</nav>
 
-		</nav>
-
-		<!--Landing Page Bottom-->
-		<div class="container-fluid landing-page-bottom">
+			<!--Landing Page Bottom-->
+			<!-- The old version of the bottom of the landing page, pre-jumbotron! Just in case I need it :) -->
+			<!-- <div class="container-fluid landing-page-bottom"> -->
 
 			<!--Hero Image-->
-			<div class="row hero-image">
-				<div class="col-12">
-					<img src="assets/images/dair-art.jpg" alt="Corr Mhóna Band Logo">
-				</div>
-			</div>
+			<!-- <div class="row hero-image">
+					<div class="col-12">
+						<img src="assets/images/dair-art.jpg" alt="Corr Mhóna Band Logo">
+					</div>
+				</div> -->
 
 			<!--New Album CTA -->
 			<!--	<div class="row cta">-->
@@ -95,8 +98,21 @@
 			<!--		</div>-->
 			<!--	</div>-->
 
+			<!-- </div> -->
+
 		</div>
 
+		<div class="container-fluid cta">
+			<div class="row">
+				<div class="col-12 cta-text">
+					<p>
+						New Album available soon...
+						<a href="/">Click here for details!</a>
+						<span>(Or try a sample in the music player above)</span>
+					</p>
+				</div>
+			</div>
+		</div>
 
 	</header>
 
