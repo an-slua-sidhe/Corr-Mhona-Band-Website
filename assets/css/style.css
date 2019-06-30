@@ -7,23 +7,18 @@ body {
 
 /* ----------------------------------The Header */
 
-header {}
-
 .jumbotron {
+    /* position: relative; */
     background-attachment: fixed;
     background-image: url('../images/dair-art.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 100vh;
     width: 100vw;
     margin-bottom: 0px;
     /* z-index: 1; */
 }
-
-.landing-page-top {}
-
-.gaeilge-container {}
 
 .gaeilge {
     text-decoration: none;
@@ -54,12 +49,14 @@ header {}
 }
 
 .cta {
+    /* position: absolute;
+    top: 90vh; */
     text-align: center;
-    /* background-color: white; */
+    background-color: white;
     color: #A51723;
     opacity: 0.8;
     position: scroll;
-    height: 5vh;
+    /* height: 5vh; */
     /* May not need these now */
     /* margin: 0; */
     /* margin-top: -10px; */
@@ -84,12 +81,10 @@ header {}
     color: #1b631f;
 }
 
-
 .banner-logo {}
 
-/* ----------------------------------Navbar */
 
-nav {}
+/* ----------------------------------Navbar */
 
 .nav-item {
     background-color: #D9D4BF;
@@ -109,7 +104,9 @@ nav {}
     color: #A51723;
 }
 
+
 /* ----------------------------------The Section */
+
 
 /* ----------------------------------The Footer */
 
@@ -123,8 +120,6 @@ footer {
     color: #73715F;
     opacity: 0.8;
 }
-
-.social-media-links {}
 
 .social-media-links li a i {
     color: #73715F;
@@ -140,6 +135,7 @@ footer {
 .social-media-links li a i:hover {
     color: #A51723;
 }
+
 
 /* ----------------------------------Media Queries */
 
