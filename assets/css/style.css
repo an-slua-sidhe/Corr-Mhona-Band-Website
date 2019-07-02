@@ -1,14 +1,27 @@
 /* ----------------------------------Meta Level */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|exo:100,200,300,400,500,600,700');
+/* Font Style Options */
+/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Karla&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Meddon&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap'); */
+
+/* The Winners */
+/* @import url('https://fonts.googleapis.com/css?family=Lora&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
+
+
 body {
-    font-family: 'exo', sans-serif;
+    font-family: 'Gatafa', sans-serif;
 }
 
 /* ----------------------------------The Header */
 
 .jumbotron {
-    /* position: relative; */
+    position: relative;
     background-attachment: fixed;
     background-image: url('../images/dair-art.jpg');
     background-position: top;
@@ -22,7 +35,7 @@ body {
 
 .gaeilge {
     text-decoration: none;
-    color: #181818;
+    color: #000000;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -49,14 +62,14 @@ body {
 }
 
 .cta {
-    /* position: absolute;
-    top: 90vh; */
+    position: absolute;
+    top: 92vh;
     text-align: center;
     background-color: white;
     color: #A51723;
     opacity: 0.8;
     position: scroll;
-    /* height: 5vh; */
+    height: 8vh;
     /* May not need these now */
     /* margin: 0; */
     /* margin-top: -10px; */
@@ -64,12 +77,13 @@ body {
 }
 
 .cta-text {
-    padding-top: 5px;
+    padding-top: 10px;
+    /* font-weight: 600; */
 }
 
 .cta-text p a {
     text-decoration: none;
-    color: #12993b;
+    color: #329e11;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -81,7 +95,14 @@ body {
     color: #1b631f;
 }
 
-.banner-logo {}
+.banner-logo-container {
+    padding: 0;
+}
+
+.banner-logo {
+    width: 100%;
+    height: auto;
+}
 
 
 /* ----------------------------------Navbar */
@@ -106,6 +127,34 @@ body {
 
 
 /* ----------------------------------The Section */
+
+section {
+    text-align: justify;
+}
+
+.section-container {
+    /* border: 1px solid bisque; */
+    /* padding: 20px; */
+    background-color: #73715F;
+}
+
+.media {
+    /* border: 1px solid bisque; */
+    /* margin: 20px; */
+    padding: 30px 20px 20px;
+}
+
+.media img {
+    text-align: center;
+    width: 25.5em;
+
+}
+
+section.news {
+    background-color: #D9D4BF;
+    /* border: 1px solid bisque; */
+    padding: 30px;
+}
 
 
 /* ----------------------------------The Footer */
@@ -138,6 +187,45 @@ footer {
 
 
 /* ----------------------------------Media Queries */
+
+/* Heights */
+@media (min-height: 1000px) {
+    .cta-text {
+        padding-top: 30px;
+    }
+}
+
+
+/* Widths */
+@media (min-width: 4000px) {
+    .jumbotron {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 3999px) {
+    .jumbotron {
+        font-size: 2.5em; 
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2999px) {
+    .jumbotron {
+        font-size: 2em; 
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1999px) {
+    .jumbotron {
+        font-size: 1.5em;        
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1499px) {
+    .cta-text {
+        font-size: 1.em;        
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .gaeilge {
