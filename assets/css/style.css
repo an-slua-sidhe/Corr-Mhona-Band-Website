@@ -164,12 +164,12 @@ h1,h2,h3,h4 {
 /* ----------Specific Styles for Home Section */
 
 .media-container {
+    background-color: #73715F;
     margin: 0;
     padding: 0;
 }
 
 .media {
-    background-color: #73715F;
     display: inline-table;
     width: 100%;
 }
@@ -210,19 +210,19 @@ h1,h2,h3,h4 {
 }
 
 .news-container {
+    background-color: #D9D4BF;
     width: 100%;
     padding: 0;
+}
+
+.news {
+    display: inline-table;
 }
 
 .news-heading {
     text-align: left;
     margin-top: 1.5em;
     margin-left: 1.5em;
-}
-
-.news {
-    background-color: #D9D4BF;
-    display: inline-table;
 }
 
 .news-card {
@@ -297,6 +297,10 @@ footer {
     }
     h1,h2,h3,h4 {
         font-size: 1.6em;
+    }
+    .music-player {
+        height: 90px;
+        width: 650px;
     }
     .media-card iframe {
         height: 18em;
