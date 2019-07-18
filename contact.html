@@ -25,9 +25,9 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!--Navbar-->
-		<nav class="navbar navbar-expand-md navbar-light fixed-top">
+		<nav class="navbar navbar-default navbar-expand-md navbar-light fixed-top">
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -175,6 +175,13 @@
 		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 		crossorigin="anonymous"></script>
 
+	<!--Javascript which impliments Navbar style changes on scroll-->
+	<script>
+		$(window).scroll(function () {
+			$('nav, .navbar-toggler, .nav-item, .gaeilge-container, .gaeilge, .music-container, .music-player-text').toggleClass('scrolled', $(this).scrollTop() > 100);
+		});
+	</script>
+	
 </body>
 
 </html>

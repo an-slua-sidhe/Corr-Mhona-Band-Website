@@ -20,7 +20,7 @@
 		<div class="jumbotron jumbotron-fluid img-fluid">
 
 			<!--Navbar-->
-			<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: none;">
+			<nav class="navbar navbar-default navbar-expand-md navbar-light fixed-top">
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -120,13 +120,12 @@
 						</div>
 
 						<div class="media-card">
-							<img src="assets/images/band-live2.jpg" class="img-fluid" alt="Corr Mhóna Live">
-							<p class="media-card-text">Corr Mhóna Live</p>
+							<img src="assets/images/band-live2.jpg" class="img-fluid" alt="Corr Mhóna at the Siege of Limerick 2015">
+							<p class="media-card-text">Corr Mhóna at the Siege of Limerick 2015</p>
 						</div>
 
 					</div>
 				</div>
-
 
 				<div class="col-12 col-md-7 news-container">
 					<div id="new-album-news" class="news">
@@ -137,29 +136,46 @@
 							<h4>NEW Corr Mhóna album!</h4>
 							<p class="news-card-text"><b>(08/05/19)&emsp;After</b> many years of hibernation, West
 								Cork's finest have returned
-								with a new album: 'Dair'. Containing 45 minutes of dense and complicated melodies, Dair
+								with a new album: 'Dair'. Containing 45 minutes of dense and complex melodies, Dair
 								is more than worth the wait! We are very proud to announce that we will be releasing
 								this on a special edition digipak CD, with a free poster inside each one, which contains
 								album artwork and a lyrics sheet. This will be available on the shop on this site and on
-								Bandcamp. See the <a href="#top"><b>Player</b></a> (only available on desktop, gábh ár leathscéal) at the top right for a pre-release version of the title track!
-								There is also a <a href="#teaser-video"><b>Teaser Video</b></a> in the Media section which has a few snippets from different tracks.
+								Bandcamp. See the <a href="#top"><b>Player</b></a> (only available on desktop, gábh ár
+								leathscéal) at the top right for a pre-release version of the title track!
+								There is also a <a href="#teaser-video"><b>Teaser Video</b></a> in the Media section
+								which has a few snippets from different tracks.
 								Enjoy! Further details of the album launch date, as well as the opening of our online
-								shop (selling Corr Mhóna CDs, merchandise and more) will be available here very soon. The new CD and merch with the art from the CD will be available <b>exclusively</b> from our shop.
+								shop (selling Corr Mhóna CDs, merchandise and more) will be available here very soon.
+								The new CD and merch with the art from the CD will be available <b>exclusively</b> from
+								our shop.
 								Beir bua a chairde, agus tóg go bog é!
 							</p>
 						</div>
 						<div class="news-card">
 							<h4>Online Shop Coming Soon</h4>
-							<p class="news-card-text"><b>(22/03/19)&emsp;Exciting</b> developments here in Corr Mhóna land; we are currently in the process of constructing our own online shop. It will be available on this very website in the near future, and will cut out the middle man. This means that all profits will go straight to the band, but also that we will be able to offer our merch and CDs for less! Copues of our CDs and T-shirts, along with all forthcoming future products, will be just a couple of clicks away. The shop will be accessed via a '<b>SHOP</b>' tab in the navigation bar at the top of the page (this is currently crossed out, and will be clickable when ready). We will have some more very exciting news for you very soon... Bí ag éisteacht linn!</p>
+							<p class="news-card-text"><b>(22/03/19)&emsp;Exciting</b> developments here in Corr Mhóna
+								land; we are currently in the process of constructing our own online shop. It will be
+								available on this very website in the near future, and will cut out the middle man. This
+								means that all profits will go straight to the band, but also that we will be able to
+								offer our merch and CDs for less! Copies of our CDs and T-shirts, along with all
+								forthcoming future products, will be just a couple of clicks away. The shop will be
+								accessed via a '<b>SHOP</b>' tab in the navigation bar at the top of the page (this is
+								currently crossed out, and will be clickable when ready). We will have some more very
+								exciting news for you very soon... Bí ag éisteacht linn!</p>
 						</div>
 						<div class="news-card d-none d-lg-block">
 							<h4>Corr Mhóna play the Siege of Limerick</h4>
 							<p class="news-card-text"><b>(22/11/18)&emsp;Corr Mhóna</b> are proud to announce that we
 								are once again gracing
-								the stage on Sunday 5th of July (Correct date??) at the mighty <a href="#"><b>Siege of Limerick</b></a>! This twice annual
+								the stage on Sunday 21st of April at the mighty <a
+									href="http://siegeoflimerick.net/" target="_blank"><b>Siege of
+										Limerick</b></a>! This twice annual
 								festival in Limerick is the highlight of the calendar year for metal fans in Ireland.
 								Hundreds of fans head down to swarm over the city for the bank holiday weekend. This is
-								our third time attending the event, and each time it has become bigger and more professional. It is incredible to think that there is <em>still</em> no entrance fee, and all these great bands are available for free. We will be playing a couple of tracks from our
+								our third time attending the event, and each time it has become bigger and more
+								professional. It is incredible to think that there is <em>still</em> no entrance fee,
+								and all these great bands are available for <em>free</em>. We will be playing a couple of tracks
+								from our
 								upcoming album at this, so if you fancy a sneak peek, come on down and get stuck in!</p>
 						</div>
 					</div>
@@ -224,6 +240,13 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
 		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 		crossorigin="anonymous"></script>
+
+	<!--Javascript which impliments Navbar style changes on scroll-->
+	<script>
+		$(window).scroll(function () {
+			$('nav, .navbar-toggler, .nav-item, .gaeilge-container, .gaeilge, .music-container, .music-player-text').toggleClass('scrolled', $(this).scrollTop() > 400);
+		});
+	</script>
 
 </body>
 

@@ -1,22 +1,9 @@
 /* ----------------------------------Meta Level */
 
-/* Font Style Options */
-/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Karla&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Meddon&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap'); */
-
-/* The Winners */
-/* @import url('https://fonts.googleapis.com/css?family=Lora&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
-
 
 body {
     font-family: 'Gafata', sans-serif;
-    background-color: #CFCDBF;
 }
 
 h1,h2,h3,h4 {
@@ -35,21 +22,29 @@ h1,h2,h3,h4 {
     height: 100vh;
     width: 100vw;
     margin-bottom: 0px;
-    /* z-index: 1; */
 }
 
 .gaeilge {
     text-decoration: none;
     color: #000000;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .gaeilge:hover {
     text-decoration: none;
     color: #A51723;
+}
+
+.gaeilge.scrolled {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.gaeilge.scrolled:hover {
+    color: #ffcace;
 }
 
 .music-container {
@@ -65,6 +60,14 @@ h1,h2,h3,h4 {
 .music-player-text {
     color: #A51723;
     font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.music-player-text.scrolled {
+    display: none;
 }
 
 .cta {
@@ -113,10 +116,34 @@ h1,h2,h3,h4 {
 
 /* ----------------------------------Navbar */
 
+.navbar-default {
+    background: transparent;
+    transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+}
+
+.navbar-default.scrolled {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler {
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggler.scrolled {
+    background-color: rgba(242, 238, 216, 0.7)
+}
+
 .nav-item {
     background-color: #D9D4BF;
     border: .5px solid #707070;
-    border-radius: 5px;
+    border-radius: 6px;
+    max-width: 6em;
     font-weight: 600;
 }
 
@@ -160,8 +187,6 @@ h1,h2,h3,h4 {
 .section-container-row {
     margin: 0;
 }
-
-/* ----------Specific Styles for Home Section */
 
 .media-container {
     background-color: #73715F;
@@ -250,12 +275,13 @@ h1,h2,h3,h4 {
 /* ----------------------------------The Footer */
 
 footer {
-    padding-top: 15px;
+    height: 4em;
+    padding: 1.1em;
     background-color: #CFCDBF;
 }
 
 .copyright-text {
-    padding-top: 10px;
+    padding-top: 8px;
     color: #73715F;
     opacity: 0.8;
 }
@@ -278,7 +304,7 @@ footer {
 
 /* ----------------------------------Media Queries */
 
-/* ----------Heights */
+/* --------------------Heights */
 
 @media (min-height: 1000px) {
     .cta-text {
@@ -287,7 +313,7 @@ footer {
 }
 
 
-/* ----------Widths */
+/* --------------------Widths */
 
 /* ----------Larger Resolutions */
 
@@ -298,6 +324,9 @@ footer {
     h1,h2,h3,h4 {
         font-size: 1.6em;
     }
+    .music-container {
+        margin-right: -2em;
+    } 
     .music-player {
         height: 90px;
         width: 650px;
@@ -319,6 +348,7 @@ footer {
     }
     .music-container {
         margin-top: -0.9em;
+        margin-right: -2.5em;
     } 
     .music-player {
         height: 100px;
@@ -338,6 +368,9 @@ footer {
     }
     h1,h2,h3,h4 {
         font-size: 1.4em;
+    }
+    .music-container {
+        margin-right: -1em;
     }
     .music-player {
         height: 80px;
@@ -360,6 +393,10 @@ footer {
     }
     .music-container {
         padding-top: .5em;
+        margin-right: -.8em;
+    }
+    .music-container.scrolled {
+        margin-top: -8px;
     }
     .music-player {
         width: 360px;
@@ -373,6 +410,12 @@ footer {
 }
 
 @media (min-width: 992px) and (max-width: 1499px) {
+    .gaeilge-container.scrolled {
+        padding-top: 7px;
+    }
+    .music-container.scrolled {
+        margin-top: 0;
+    }
     .cta-text {
         font-size: 1.2em;        
     }
@@ -390,11 +433,23 @@ footer {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1500px) {
+    .copyright-text {
+        padding-top: 2px;
+    }
+    .social-media-links li a i {
+        padding-top: 12px;
+    }
+}
+
 /* ----------Smaller Resolutions */
 
 @media(min-width: 992px) {
     .navbar .navbar-nav .nav-item {
         margin-bottom: 70px;
+    }
+    .navbar .navbar-nav .nav-item.scrolled {
+        margin-bottom: 0;
     }
     .gaeilge-container {
         padding-top: 10px;
@@ -417,6 +472,12 @@ footer {
         border-radius: 0;
         background-color: none;
     }
+    .gaeilge {
+        display: none;
+    }
+    .navbar-default.scrolled {
+        background-color: transparent;
+    }
     .media-card iframe {
         height: 15em;
     }
@@ -424,7 +485,7 @@ footer {
         padding-top: 0px;
     }
     .social-media-links li a i {
-        font-size: 20px;
+        font-size: 1.5em;
         padding: 7px 10px 10px;
     }
 }
@@ -443,7 +504,7 @@ footer {
         text-align: center;
     }
     .social-media-links li a i {
-        font-size: 20px;
+        font-size: 1.3em;
         padding: 7px 10px 10px;
     }
 }
