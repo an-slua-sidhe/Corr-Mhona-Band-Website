@@ -1,12 +1,11 @@
 /* ----------------------------------Meta Level */
 
 @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
-
 body {
     font-family: 'Gafata', sans-serif;
 }
 
-h1,h2,h3,h4 {
+h1, h2, h3, h4 {
     font-weight: 600;
 }
 
@@ -113,7 +112,6 @@ h1,h2,h3,h4 {
     height: auto;
 }
 
-
 /* ----------------------------------Navbar */
 
 .navbar-default {
@@ -158,7 +156,6 @@ h1,h2,h3,h4 {
 .navbar .navbar-nav .nav-item a:hover {
     color: #A51723;
 }
-
 
 /* ----------------------------------The Section */
 
@@ -263,7 +260,7 @@ h1,h2,h3,h4 {
     text-align: center;
     margin: 0 .4em;
     padding-top: 1em;
-    padding-bottom: -1.2em; 
+    padding-bottom: -1.2em;
 }
 
 .news-card-text {
@@ -271,6 +268,75 @@ h1,h2,h3,h4 {
     padding: 1.5em;
 }
 
+/* --------------Disc Section */
+
+.disc-container {
+    background-color: #73715F;
+    margin: 0;
+    padding: 0;
+}
+
+.disc-heading {
+    color: #F2EED8;
+    text-align: center;
+    padding-top: 2.2em;
+}
+
+.disc-heading h2 {
+    margin: 0;
+}
+
+.disc-card {
+    margin: 3em auto;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.disc-card .row {
+    background-color: #D9D4BF;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.disc-card-heading {
+    color: #000000;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.disc-card-heading h3 {
+    padding: 1em;
+    padding-left: 4%;
+}
+
+.disc-album-cover {
+    margin: 0;
+    padding: 0 1.5em 2em 1.5em;
+}
+
+.disc-album-cover img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.disc-card-text {
+    background-color: #F2EED8;
+    border-radius: 10px;
+    width: 93%;
+    height: auto;
+    padding: 1em;
+    margin: 0 0 2.3em 0;
+}
+
+.disc-card-text p {
+    text-align: justify;
+    padding: 0 .5em;
+    margin: 0;
+}
 
 /* ----------------------------------The Footer */
 
@@ -301,7 +367,6 @@ footer {
     color: #A51723;
 }
 
-
 /* ----------------------------------Media Queries */
 
 /* --------------------Heights */
@@ -312,7 +377,6 @@ footer {
     }
 }
 
-
 /* --------------------Widths */
 
 /* ----------Larger Resolutions */
@@ -321,12 +385,12 @@ footer {
     body {
         font-size: 3em;
     }
-    h1,h2,h3,h4 {
+    h1, h2, h3, h4 {
         font-size: 1.6em;
     }
     .music-container {
         margin-right: -2em;
-    } 
+    }
     .music-player {
         height: 90px;
         width: 650px;
@@ -334,22 +398,37 @@ footer {
     .media-card iframe {
         height: 18em;
     }
+    .disc-container {
+        font-size: 130%;
+    }
     .social-media-links li a i {
         margin-left: .8em;
     }
 }
 
+@media (min-width: 3500px) and (max-width: 3999px) {
+    .disc-container {
+        font-size: 140%;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 3499px) {
+    .disc-container {
+        font-size: 120%;
+    }
+}
+
 @media (min-width: 3000px) and (max-width: 3999px) {
     body {
-        font-size: 2.5em; 
+        font-size: 2.5em;
     }
-    h1,h2,h3,h4 {
+    h1, h2, h3, h4 {
         font-size: 1.5em;
     }
     .music-container {
         margin-top: -0.9em;
         margin-right: -2.5em;
-    } 
+    }
     .music-player {
         height: 100px;
         width: 560px;
@@ -362,11 +441,17 @@ footer {
     }
 }
 
+@media (min-width: 2500px) and (max-width: 2999px) {
+    .disc-container {
+        font-size: 130%;
+    }
+}
+
 @media (min-width: 2000px) and (max-width: 2999px) {
     body {
-        font-size: 2em; 
+        font-size: 2em;
     }
-    h1,h2,h3,h4 {
+    h1, h2, h3, h4 {
         font-size: 1.4em;
     }
     .music-container {
@@ -384,11 +469,17 @@ footer {
     }
 }
 
+@media (min-width: 1750px) and (max-width: 1999px) {
+    .disc-container {
+        font-size: 120%;
+    }
+}
+
 @media (min-width: 1500px) and (max-width: 1999px) {
     body {
-        font-size: 1.5em;        
+        font-size: 1.5em;
     }
-    h1,h2,h3,h4 {
+    h1, h2, h3, h4 {
         font-size: 1.3em;
     }
     .music-container {
@@ -409,6 +500,12 @@ footer {
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .disc-container {
+        font-size: 135%;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1499px) {
     .gaeilge-container.scrolled {
         padding-top: 7px;
@@ -417,11 +514,11 @@ footer {
         margin-top: 0;
     }
     .cta-text {
-        font-size: 1.2em;        
+        font-size: 1.2em;
     }
     .media-card iframe {
         height: 15em;
-    } 
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -431,9 +528,12 @@ footer {
     .music-container {
         margin-right: -20px;
     }
+    .disc-container {
+        font-size: 120%;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1500px) {
+@media (min-width: 768px) and (max-width: 1499px) {
     .copyright-text {
         padding-top: 2px;
     }
@@ -461,9 +561,8 @@ footer {
         display: none;
     }
     .media-card iframe {
-    height: 15em;
+        height: 15em;
     }
-
 }
 
 @media(max-width: 767px) {
@@ -490,7 +589,7 @@ footer {
     }
 }
 
-@media(max-width: 575px) {    
+@media(max-width: 575px) {
     .gaeilge {
         display: none;
     }
