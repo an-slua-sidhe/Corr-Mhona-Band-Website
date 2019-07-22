@@ -398,6 +398,7 @@ footer {
         font-size: 130%;
     }
     .social-media-links li a i {
+        margin-top: .3em;
         margin-left: .8em;
     }
 }
@@ -433,6 +434,7 @@ footer {
         height: 18em;
     }
     .social-media-links li a i {
+        margin-top: .2em;
         margin-left: .6em;
     }
 }
@@ -461,6 +463,7 @@ footer {
         height: 15em;
     }
     .social-media-links li a i {
+        margin-top: .1em;
         margin-left: .5em;
     }
 }
@@ -493,6 +496,12 @@ footer {
     }
     .social-media-links li a i {
         margin-left: .3em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1499px) {
+    .disc-card-heading {
+        padding-left: 1%;
     }
 }
 
@@ -540,7 +549,7 @@ footer {
 
 /* ----------Smaller Resolutions */
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
     .navbar .navbar-nav .nav-item {
         margin-bottom: 70px;
     }
@@ -552,7 +561,7 @@ footer {
     }
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
     .cta-text p span {
         display: none;
     }
@@ -561,7 +570,7 @@ footer {
     }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .nav-item {
         border: none;
         border-radius: 0;
@@ -584,7 +593,10 @@ footer {
         padding-top: 1.5em;
         padding-bottom: 0;
     }
-    .disc-card-text{
+    .disc-card #cead-cover .disc-album-cover {
+        padding-top: 0;
+    }
+    .disc-card-text {
         width: 100%;
         height: 100%;
         margin: 0;
@@ -599,7 +611,7 @@ footer {
     }
 }
 
-@media(max-width: 575px) {
+@media (max-width: 575px) {
     .gaeilge {
         display: none;
     }
@@ -608,6 +620,9 @@ footer {
     }
     .media-card iframe {
         height: 12em;
+    }
+    .disc-container h2, h3 {
+        font-size: 150%;
     }
     .social-media-links {
         text-align: center;
@@ -618,8 +633,11 @@ footer {
     }
 }
 
-@media(max-width: 340px) {
+@media (max-width: 340px) {
     .cta-text {
         font-size: 0.7em;
+    }
+    .disc-container h2, h3 {
+        font-size: 140%;
     }
 }
