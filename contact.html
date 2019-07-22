@@ -89,36 +89,78 @@
 
 	<section>
 
-		<!-- This section content just added to show element relationships! -->
 		<div class="container-fluid section-container">
-			<div class="row">
-				<div class="col-12 col-lg-4 media">
-					<img src="assets/images/dair-dryad.jpg" class="img-fluid" alt="New Album Poster Art">
-					<!-- <img src="assets/images/band-live2.jpg" alt="Corr Mhóna live 1"> -->
+
+
+			<div class="row contact-row">
+
+				<div class="col contact-background">
+
+					<div class="contact-form">
+
+						<div class="contact-form-heading">
+
+							<br>
+							<h4>Contact Corr Mhóna</h4>
+							<br>
+
+							<form>
+
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1"
+										aria-describedby="emailHelp" placeholder="Enter email">
+									<small id="emailHelp" class="form-text"><em>(We will never share your email with
+											anyone
+											else. Is fíor san!)</em></small>
+								</div>
+								<br><br>
+
+								<h4>Is your query about:</h4>
+								<br>
+
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="bookings"
+										id="bookings" value="option1" checked>
+									<label class="form-check-label" for="bookings">
+										Festival/Gig Bookings
+									</label>
+								</div>
+								<br>
+
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="merchandise"
+										id="merchandise" value="option2">
+									<label class="form-check-label" for="merchandise">
+										Merchandise
+									</label>
+								</div>
+								<br>
+
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="new-album"
+										id="new-album" value="option3">
+									<label class="form-check-label" for="new-album">
+										New Album
+									</label>
+								</div>
+								<br><br>
+
+								<div class="form-group">
+									<label for="exampleFormControlTextarea1"><b>Please write your message
+											below:</b></label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+								</div>
+								<br>
+
+								<button type="submit" class="btn btn-primary">Do it!</button>
+
+							</form>
+						</div>
+
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-lg-8 news">
-					<h3>NEWS</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe ad dolore tempore aut
-						aperiam ut minus magni molestias nemo possimus omnis dignissimos laboriosam repudiandae
-						aspernatur consequuntur, accusantium qui deleniti. Lorem ipsum dolor sit amet consectetur,
-						adipisicing elit. Eveniet provident vero aliquam beatae perspiciatis laborum incidunt!
-						Blanditiis odio, fuga iste enim at, voluptatem ad cumque quis inventore expedita maxime.
-						Dolorem.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, modi voluptates esse dicta sequi
-						quasi atque earum praesentium enim architecto, ex reprehenderit ea ipsa. Beatae iste magni
-						voluptates nostrum eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facilis
-						sit recusandae fuga explicabo quisquam commodi dolore est? Odio eligendi voluptas tempora
-						laudantium quisquam doloribus hic in fugit? Praesentium, labore.</p>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem necessitatibus iste culpa
-						repellendus nam enim, doloremque vero libero porro neque similique illum, dicta, aliquid atque
-						laudantium ullam corporis ipsam officia. Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit. Omnis itaque quis et ab distinctio officia, rem cumque nesciunt. Deserunt nam natus
-						accusamus mollitia autem dolor alias hic recusandae quo consequuntur.</p>
-				</div>
-			</div>
-		</div>
 	</section>
 
 	<footer>
@@ -181,7 +223,7 @@
 			$('nav, .navbar-toggler, .nav-item, .gaeilge-container, .gaeilge, .music-container, .music-player-text').toggleClass('scrolled', $(this).scrollTop() > 100);
 		});
 	</script>
-	
+
 </body>
 
 </html>
