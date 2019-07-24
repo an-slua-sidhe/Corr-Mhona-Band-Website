@@ -17,7 +17,7 @@
 
 	<header>
 
-		<div class="container-fluid banner-logo-container">
+		<div class="container-fluid banner-logo-container contact-logo">
 			<div class="row">
 				<div class="col">
 					<img src="assets/images/banner-logo1.jpg" class="img-fluid banner-logo"
@@ -26,8 +26,8 @@
 			</div>
 		</div>
 
-		<!--Navbar-->
-		<nav class="navbar navbar-default navbar-expand-md navbar-light fixed-top">
+		<!----------Navbar---------->
+		<nav class="navbar navbar-default contact-nav navbar-expand-md navbar-light fixed-top">
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,20 +35,20 @@
 
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-3">
+				<ul id="contact-ul" class="navbar-nav mr-auto">
+					<li class="nav-item contact-nav-item mr-3">
 						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item mr-3">
+					<li class="nav-item contact-nav-item mr-3">
 						<a class="nav-link text-nowrap" href="bio.html">The Band</a>
 					</li>
-					<li class="nav-item mr-3">
+					<li class="nav-item contact-nav-item mr-3">
 						<a class="nav-link" href="disc.html">Discography</a>
 					</li>
-					<li class="nav-item mr-3">
+					<li class="nav-item contact-nav-item mr-3">
 						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
-					<li class="nav-item mr-3">
+					<li class="nav-item contact-nav-item mr-3">
 						<a class="nav-link disabled" href="/" tabindex="-1" aria-disabled="true"><s>Shop</s></a>
 					</li>
 				</ul>
@@ -66,7 +66,7 @@
 			<div class="container d-none d-lg-block col-lg-4 col-xl-3 music-container">
 
 				<div class="row">
-					<div class="col">
+					<div id="contact-music-player" class="col">
 						<audio class="music-player" controls="controls" preload="metadata">
 							<source src="assets/audio/dair.mp3" type="audio/mp3">
 							<source src="assets/audio/dair.ogg" type="audio/ogg">
@@ -75,7 +75,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row contact-music-text">
 					<div class="col">
 						<p class="music-player-text"><em>New album sample track above!</em></p>
 					</div>
@@ -91,28 +91,25 @@
 
 		<div class="container-fluid section-container">
 
-
+			<!----------Contact Form---------->
 			<div class="row contact-row">
 
 				<div class="col contact-background">
 
 					<div class="contact-form">
 
-						<div class="contact-form-heading">
-
 							<br>
-							<h4>Contact Corr Mhóna</h4>
+							<h4 id="contact-form-heading">Contact Corr Mhóna</h4>
 							<br>
 
 							<form>
 
 								<div class="form-group">
-									<label for="exampleInputEmail1">Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1"
-										aria-describedby="emailHelp" placeholder="Enter email">
+									<label for="input-email">Email address</label>
+									<input type="email" class="form-control" id="input-email"
+										aria-describedby="emailHelp" placeholder="What's your email?">
 									<small id="emailHelp" class="form-text"><em>(We will never share your email with
-											anyone
-											else. Is fíor san!)</em></small>
+											anyone else. Geallaimid daoibh!)</em></small>
 								</div>
 								<br><br>
 
@@ -120,8 +117,8 @@
 								<br>
 
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="bookings"
-										id="bookings" value="option1" checked>
+									<input class="form-check-input" type="radio" name="radio" id="radio1"
+										value="option1">
 									<label class="form-check-label" for="bookings">
 										Festival/Gig Bookings
 									</label>
@@ -129,34 +126,36 @@
 								<br>
 
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="merchandise"
-										id="merchandise" value="option2">
-									<label class="form-check-label" for="merchandise">
+									<input class="form-check-input" type="radio" name="radio" id="radio2"
+										value="option2">
+									<label class="form-check-label" for="radio2">
 										Merchandise
 									</label>
 								</div>
 								<br>
 
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="new-album"
-										id="new-album" value="option3">
-									<label class="form-check-label" for="new-album">
+									<input class="form-check-input" type="radio" name="radio" id="radio3"
+										value="option3">
+									<label class="form-check-label" for="radio3">
 										New Album
 									</label>
 								</div>
 								<br><br>
 
 								<div class="form-group">
-									<label for="exampleFormControlTextarea1"><b>Please write your message
+									<label for="text-input"><b>Please write your message
 											below:</b></label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+									<textarea class="form-control" id="text-input" rows="4"
+										placeholder="What's on your mind?"></textarea>
 								</div>
 								<br>
 
-								<button type="submit" class="btn btn-primary">Do it!</button>
+								<div id="contact-btn">
+									<button type="submit" class="btn">Send it!</button>
+								</div>
 
 							</form>
-						</div>
 
 					</div>
 				</div>
@@ -172,6 +171,7 @@
 					Copyright Corr Mhóna 2019
 				</div>
 
+				<!----------Social Media Links---------->
 				<div class="col-sm-6 text-right">
 					<ul class="list-inline social-media-links">
 						<li class="list-inline-item">
@@ -206,7 +206,7 @@
 
 	</footer>
 
-	<!--Javascript-->
+	<!----------Javascript---------->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -217,10 +217,10 @@
 		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 		crossorigin="anonymous"></script>
 
-	<!--Javascript which impliments Navbar style changes on scroll-->
+	<!----------Javascript for Navbar style changes (on scroll)---------->
 	<script>
 		$(window).scroll(function () {
-			$('nav, .navbar-toggler, .nav-item, .gaeilge-container, .gaeilge, .music-container, .music-player-text').toggleClass('scrolled', $(this).scrollTop() > 100);
+			$('nav, .navbar-toggler, .nav-item, .gaeilge-container, .gaeilge, .music-container, .music-player-text').toggleClass('scrolled', $(this).scrollTop() > 50);
 		});
 	</script>
 
