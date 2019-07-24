@@ -678,6 +678,10 @@ footer {
     .gaeilge-container {
         padding-top: 7px;
     }
+    .contact-nav .gaeilge:hover {
+        text-decoration: none;
+        color: #A51723;
+    }
 }
 
 @media (min-width: 1500px) and (max-width: 1999px) {
