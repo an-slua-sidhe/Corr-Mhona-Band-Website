@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ga">
 
 <head>
 	<meta charset="UTF-8">
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Corr Mhóna | Contact</title>
+	<title>Corr Mhóna | Teagmháil</title>
 </head>
 
 <body>
@@ -20,8 +20,7 @@
 		<div class="container-fluid banner-logo-container contact-logo">
 			<div class="row">
 				<div class="col">
-					<img src="assets/images/banner-logo1.jpg" class="img-fluid banner-logo"
-						alt="Corr Mhóna Banner Logo">
+					<img src="assets/images/banner-logo1.jpg" class="img-fluid banner-logo" alt="Clár Corr Mhóna">
 				</div>
 			</div>
 		</div>
@@ -37,19 +36,19 @@
 
 				<ul id="contact-ul" class="navbar-nav mr-auto">
 					<li class="nav-item contact-nav-item mr-3">
-						<a class="nav-link" href="index_ga.html">Home<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index_ga.html">Baile<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item contact-nav-item mr-3">
-						<a class="nav-link text-nowrap" href="bio_ga.html">The Band</a>
+						<a class="nav-link text-nowrap" href="bio_ga.html">An Banna</a>
 					</li>
 					<li class="nav-item contact-nav-item mr-3">
-						<a class="nav-link" href="disc_ga.html">Discography</a>
+						<a class="nav-link" href="disc_ga.html">Dioscliosta</a>
 					</li>
 					<li class="nav-item contact-nav-item mr-3">
-						<a class="nav-link" href="contact_ga.html">Contact</a>
+						<a class="nav-link" href="contact_ga.html">Teagmháil</a>
 					</li>
 					<li class="nav-item contact-nav-item mr-3">
-						<a class="nav-link disabled" href="/" tabindex="-1" aria-disabled="true"><s>Shop</s></a>
+						<a class="nav-link disabled" href="/" tabindex="-1" aria-disabled="true"><s>Siopa</s></a>
 					</li>
 				</ul>
 
@@ -70,14 +69,14 @@
 						<audio class="music-player" controls="controls" preload="metadata">
 							<source src="assets/audio/dair.mp3" type="audio/mp3">
 							<source src="assets/audio/dair.ogg" type="audio/ogg">
-							Your browser doesn't support this media player! :(
+							Níl do bhrabhsálaí in ann an seinnteoir seo a úsáid! :(
 						</audio>
 					</div>
 				</div>
 
 				<div class="row contact-music-text">
 					<div class="col">
-						<p class="music-player-text"><em>New album sample track above!</em></p>
+						<p class="music-player-text"><em>Sampla don ALBAM NUA!</em></p>
 					</div>
 				</div>
 
@@ -98,64 +97,59 @@
 
 					<div class="contact-form">
 
+						<br>
+						<h4 id="contact-form-heading">Déan Teagmháil le Corr Mhóna</h4>
+						<br>
+
+						<form>
+
+							<div class="form-group">
+								<label for="input-email">Ríomhpost</label>
+								<input type="email" class="form-control" id="input-email" aria-describedby="emailHelp"
+									placeholder="Cad atá do ríomhphost?">
+								<small id="emailHelp" class="form-text"><em>(Ní taispeánfaimid do ríomhphost do phé duine ar bith. Geallaimid daoibh!)</em></small>
+							</div>
+							<br><br>
+
+							<h4>An bfhuil ceist agat faoi:</h4>
 							<br>
-							<h4 id="contact-form-heading">Contact Corr Mhóna</h4>
+
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+								<label class="form-check-label" for="bookings">
+									Féilte/Ceolchoirmeacha
+								</label>
+							</div>
 							<br>
 
-							<form>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+								<label class="form-check-label" for="radio2">
+									Earraí
+								</label>
+							</div>
+							<br>
 
-								<div class="form-group">
-									<label for="input-email">Email address</label>
-									<input type="email" class="form-control" id="input-email"
-										aria-describedby="emailHelp" placeholder="What's your email?">
-									<small id="emailHelp" class="form-text"><em>(We will never share your email with
-											anyone else. Geallaimid daoibh!)</em></small>
-								</div>
-								<br><br>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+								<label class="form-check-label" for="radio3">
+									An t-Albam Nua
+								</label>
+							</div>
+							<br><br>
 
-								<h4>Is your query about:</h4>
-								<br>
+							<div class="form-group">
+								<label for="text-input"><b>Scríobh do teachtaireacht thíos, le do thoil:</b></label>
+								<textarea class="form-control" id="text-input" rows="4"
+									placeholder="Aon scéal?"></textarea>
+							</div>
+							<br>
 
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="radio" id="radio1"
-										value="option1">
-									<label class="form-check-label" for="bookings">
-										Festival/Gig Bookings
-									</label>
-								</div>
-								<br>
+							<div id="contact-btn">
+								<button type="submit" class="btn">Ar aghaidh!</button>
+							</div>
 
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="radio" id="radio2"
-										value="option2">
-									<label class="form-check-label" for="radio2">
-										Merchandise
-									</label>
-								</div>
-								<br>
-
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="radio" id="radio3"
-										value="option3">
-									<label class="form-check-label" for="radio3">
-										New Album
-									</label>
-								</div>
-								<br><br>
-
-								<div class="form-group">
-									<label for="text-input"><b>Please write your message
-											below:</b></label>
-									<textarea class="form-control" id="text-input" rows="4"
-										placeholder="What's on your mind?"></textarea>
-								</div>
-								<br>
-
-								<div id="contact-btn">
-									<button type="submit" class="btn">Send it!</button>
-								</div>
-
-							</form>
+						</form>
 
 					</div>
 				</div>
@@ -168,7 +162,7 @@
 			<div class="row justify-content-between">
 
 				<div class="col-sm-6 d-none d-sm-block copyright-text">
-					Copyright Corr Mhóna 2019
+					Cóipcheart Corr Mhóna 2019
 				</div>
 
 				<!----------Social Media Links---------->
@@ -218,6 +212,7 @@
 		crossorigin="anonymous"></script>
 
 	<!----------Javascript for Navbar style changes (on scroll)---------->
+	<!----------Javascript code modified from a snippet found at Jsfiddle (https://jsfiddle.net/wamosjk/ufhp9s15/)---------->
 	<script>
 		$(window).scroll(function () {
 			$('nav, .navbar-toggler, .nav-item, .gaeilge-container, .gaeilge, .music-container, .music-player-text').toggleClass('scrolled', $(this).scrollTop() > 50);
