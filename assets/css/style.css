@@ -682,6 +682,9 @@ footer {
         text-decoration: none;
         color: #A51723;
     }
+    .social-media-links li a i {
+        font-size: 160%;
+    }
 }
 
 @media (min-width: 1500px) and (max-width: 1999px) {
@@ -875,6 +878,7 @@ footer {
     .media-card iframe {
         height: 15em;
     }
+
     /* ----------Disc Section */
     .disc-card-heading h3 {
         text-align: center;
