@@ -9,7 +9,6 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
-
 /* ----------------------------------The Header */
 
 .jumbotron {
@@ -108,7 +107,6 @@ h1, h2, h3, h4 {
     height: auto;
 }
 
-
 /* ----------------------------------Navbar */
 
 .navbar-default {
@@ -154,12 +152,13 @@ h1, h2, h3, h4 {
     color: #A51723;
 }
 
-
 /* ----------------------------------The Section */
 
 .section-container {
     display: block;
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -182,7 +181,6 @@ h1, h2, h3, h4 {
 .section-container-row {
     margin: 0;
 }
-
 
 /* --------------Home and Bio Section */
 
@@ -268,7 +266,6 @@ h1, h2, h3, h4 {
     padding: 1.5em;
 }
 
-
 /* --------------Disc Section */
 
 .disc-container {
@@ -339,7 +336,6 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-
 /* --------------Contact Section */
 
 .contact-row {
@@ -382,7 +378,6 @@ form button.btn {
     /* width: 30%; */
 }
 
-
 /* ----------------------------------The Footer */
 
 footer {
@@ -411,7 +406,6 @@ footer {
 .social-media-links li a i:hover {
     color: #A51723;
 }
-
 
 /* ----------------------------------Media Queries */
 
@@ -444,12 +438,10 @@ footer {
     .media-card iframe {
         height: 18em;
     }
-
     /* ----------Disc */
     .disc-container {
         font-size: 130%;
     }
-
     /* ----------Contact */
     .contact-logo {
         display: none;
@@ -525,7 +517,6 @@ footer {
     .media-card iframe {
         height: 18em;
     }
-
     /* ----------Contact Section */
     .contact-logo {
         display: none;
@@ -570,7 +561,6 @@ footer {
     #contact-btn button {
         font-size: .7em;
     }
-
     /* ----------Footer */
     .social-media-links li a i {
         margin-top: .2em;
@@ -579,7 +569,6 @@ footer {
 }
 
 @media (min-width: 3000px) and (max-width: 3499px) {
-    
     /* ----------Disc Section */
     .disc-container {
         font-size: 120%;
@@ -587,7 +576,6 @@ footer {
 }
 
 @media (min-width: 2500px) and (max-width: 2999px) {
-    
     /* ----------Disc Section */
     .disc-container {
         font-size: 130%;
@@ -611,7 +599,6 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-
     /* ----------Contact Section */
     .contact-logo {
         display: none;
@@ -656,7 +643,6 @@ footer {
     #contact-btn button {
         font-size: .7em;
     }
-
     /* ----------Footer */
     .social-media-links li a i {
         margin-top: .1em;
@@ -665,7 +651,6 @@ footer {
 }
 
 @media (min-width: 1750px) and (max-width: 1999px) {
-    
     /* ----------Disc Section */
     .disc-container {
         font-size: 120%;
@@ -755,16 +740,13 @@ footer {
     #contact-btn button {
         font-size: .8em;
     }
-
     /* ----------Footer */
-
     .social-media-links li a i {
         margin-left: .3em;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1499px) {
-    
     /* ----------Disc Section */
     .disc-card-heading {
         padding-left: 1%;
@@ -793,7 +775,6 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-
     /* ----------Contact Section */
     #input-email {
         margin: auto;
@@ -815,7 +796,6 @@ footer {
     .music-container {
         margin-right: -20px;
     }
-
     /* ----------Disc Section */
     .disc-container {
         font-size: 120%;
@@ -849,7 +829,6 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-
     /* ----------Contact Section */
     #input-email {
         margin: auto;
@@ -876,7 +855,6 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-
     /* ----------Disc Section */
     .disc-card-heading h3 {
         text-align: center;
@@ -895,13 +873,11 @@ footer {
         margin: 0;
         padding: 1.5em;
     }
-
     /* ----------Contact Section */
     #input-email {
         margin: auto;
         width: 80%;
     }
-
     /* ----------Footer */
     .copyright-text {
         padding-top: 0px;
