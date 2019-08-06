@@ -77,7 +77,6 @@ h1, h2, h3, h4 {
     background-color: white;
     color: #A51723;
     opacity: 0.8;
-    position: scroll;
     height: 8vh;
 }
 
@@ -262,7 +261,6 @@ h1, h2, h3, h4 {
     text-align: center;
     margin: 0 .4em;
     padding-top: 1em;
-    padding-bottom: -1.2em;
 }
 
 .news-card-text {
@@ -867,7 +865,7 @@ footer {
     .nav-item {
         border: none;
         border-radius: 0;
-        background-color: none;
+        background-color: rgba(217, 212, 191, 0.9);
     }
     .gaeilge {
         display: none;
