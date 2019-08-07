@@ -2,9 +2,9 @@
 
 ## **Introduction**
 
-This is the official [Corr Mhóna](https://an-slua-sidhe.github.io/milestone-1/) website.
+This is the official [**Corr Mhóna**](https://an-slua-sidhe.github.io/milestone-1/) website.
 
-It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses/) with the [Code Institute](https://codeinstitute.net/), Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
+It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses/) with the **Code Institute**, Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
 
 The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com/) and [Facebook](https://www.facebook.com/corrmhona/). However, there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform. As a band member myself, I decided to undertake this task with the skills I had learned during the course.
 
@@ -47,13 +47,13 @@ ___
 
 I have tried to use these principles when creating a **User Experience** for our website, constructing a site that has clean organic lines and colours, that delivers relevant content to the user simply and efficiently, and that is also available in the Irish language.
 
-There are a number of different types of user which may visit the site, each with different goals and motivations.
-
 ### **User Stories**
+
+There are a number of different types of user which may visit the site, each with different goals and motivations. I have listed them below in four categories.
 
 #### **The Music Fan**
 
-This 
+- As a music fan, to achieve this
 
 #### **The Promoter**
 
