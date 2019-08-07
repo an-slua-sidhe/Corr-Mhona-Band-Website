@@ -1,5 +1,7 @@
 # **THE _CORR MHÓNA_ BAND WEBSITE**
 
+![Corr Mhóna Banner Logo](assets/images/banner-logo1.jpg "Corr Mhóna Banner Logo")
+
 ## **Introduction**
 
 **This** is the official [**Corr Mhóna**](https://an-slua-sidhe.github.io/milestone-1/) website.
@@ -84,11 +86,11 @@ There are a number of different types of user which may visit the site, each wit
 
 ### **Wireframes**
 
-I used Adobe XD to design and create [**Wireframes**](assets/wireframes/mockups-desktop.pdf) for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on 
+I used Adobe XD to design and create **Wireframes** for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on the colour palette, theme and artistic direction of the site.
 
 #### **Basic Wireframes**
 
-asdfsdaf
+The basic wireframes are available within this repository in two PDFs; one for [Mobile](assets/wireframes/wireframes-mobile.pdf) and one for [Desktop](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1/), with some changes (see [**Design Changes**](#design-changes)).
 
 #### **Full Asset Mockups**
 
