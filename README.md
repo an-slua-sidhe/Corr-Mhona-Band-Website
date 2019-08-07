@@ -9,10 +9,39 @@ It was designed by me, **Paul Quinn**, to give the band a greater independent on
 The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com/) and [Facebook](https://www.facebook.com/corrmhona/). However, there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform. As a band member myself, I decided to undertake this task with the skills I had learned during the course.
 
 A variety of features have been implemented already, and there are several more to come in the near future. I have used the band's own assets to populate the site and inspire its design. There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
-____
+
+## **Table of Contents**
+1. [User Experience](#user-experience)
+    - [User Stories](#user-stories)
+        - [The Music Fan](#the-music-fan)
+        - [The Promoter](#the-promoter)
+        - [The Journalist](#the-journalist)
+        - [The Record Label](#the-record-label)
+    - [Wireframes](#wireframes)
+        - [Basic Wireframes](#basic-wireframes)
+        - [Full Asset Mockups](#full-asset-mockups)
+    - [Design Choices](#design-choices)
+    - [Design Changes](#design-changes)
+
+2. [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
+
+3. [Technologies Used](#technologies-used)
+
+4. [Testing](#testing)
+
+5. [Deployment](#deployment)
+
+6. [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+
+___
 
 
-# **User Experience**
+## **User Experience**
 
 **Corr Mhóna** has always prided itself on following a few founding principles; Making use of natural elements both musically and lyrically, organically combining whatever styles suit the music we write, promoting the Irish language, and avoiding narcissistic imagery and remaining grounded when connecting with out fans.
 
@@ -20,41 +49,41 @@ I have tried to use these principles when creating a **User Experience** for our
 
 There are a number of different types of user which may visit the site, each with different goals and motivations.
 
-## **User Stories**
+### **User Stories**
 
-### **The Music Fan**
+#### **The Music Fan**
 
 This 
 
-### **The Promoter**
+#### **The Promoter**
 
 asf
 
-### **The Journalist**
+#### **The Journalist**
 
 sdaf
 
-### **The Record Label**
+#### **The Record Label**
 
 agfdaf
 
-## **Wireframes**
+### **Wireframes**
 
 safdasf
 
-### **Basic Wireframes**
+#### **Basic Wireframes**
 
 asdfsdaf
 
-### **Full Asset Mockups**
+#### **Full Asset Mockups**
 
 asdfsadf
 
-## **Design Choices**
+### **Design Choices**
 
 asfdsdaf
 
-## **Design Changes**
+### **Design Changes**
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -65,11 +94,11 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ___
 
-# **Features**
+## **Features**
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
-## **Existing Features**
+### **Existing Features**
 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -78,13 +107,13 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-## **Future Features**
+### **Future Features**
 
 - Another feature idea
 
 ___
 
-# **Technologies Used**
+## **Technologies Used**
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -93,7 +122,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ___
 
-# **Testing**
+## **Testing**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -115,7 +144,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ___
 
-# **Deployment**
+## **Deployment**
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -128,14 +157,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ___
 
-# **Credits**
+## **Credits**
 
-## **Content**
+### **Content**
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-## **Media**
+### **Media**
 - The photos used in this site were obtained from ...
 
-## **Acknowledgements**
+### **Acknowledgements**
 
 - I received inspiration for this project from X
