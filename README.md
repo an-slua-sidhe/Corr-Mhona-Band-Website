@@ -1,17 +1,18 @@
-# THE **CORR MHÓNA** BAND WEBSITE
+# **THE _CORR MHÓNA_ BAND WEBSITE**
 
 ## **Introduction**
 
 This is the official [Corr Mhóna](https://an-slua-sidhe.github.io/milestone-1/) website.
 
-It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses/) with the [Code Institute](https://codeinstitute.net/), Ireland. The end goal, however, is to provide a fully interactive website for the band, with e-commerce functionality.
+It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses/) with the [Code Institute](https://codeinstitute.net/), Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
 
-The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com/) and [Facebook](https://www.facebook.com/corrmhona/), but there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform.
+The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com/) and [Facebook](https://www.facebook.com/corrmhona/). However, there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform. As a band member myself, I decided to undertake this task with the skills I had learned during the course.
 
-A variety of features have been implemented already, and there are several more to come in the near future. I have used the bands own assets to populate the site and inspire its design. There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
-(needs another line break!)
+A variety of features have been implemented already, and there are several more to come in the near future. I have used the band's own assets to populate the site and inspire its design. There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
+____
 
-# **UX**
+
+# **User Experience**
 
 **Corr Mhóna** has always prided itself on following a few founding principles; Making use of natural elements both musically and lyrically, organically combining whatever styles suit the music we write, promoting the Irish language, and avoiding narcissistic imagery and remaining grounded when connecting with out fans.
 
@@ -62,6 +63,8 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+___
+
 # **Features**
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -79,6 +82,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Another feature idea
 
+___
+
 # **Technologies Used**
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -86,6 +91,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+___
 
 # **Testing**
 
@@ -107,6 +113,8 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+___
+
 # **Deployment**
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -118,6 +126,7 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+___
 
 # **Credits**
 
