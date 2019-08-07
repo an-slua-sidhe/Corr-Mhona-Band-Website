@@ -53,38 +53,38 @@ There are a number of different types of user which may visit the site, each wit
 
 #### **The Band Member**
 
-- As band member, I can easily put the latest information up on the **News** section of the [**Home** page](index.html), so that fans and promoters are kept updated.
-- As band member, I can embed media from the latest project in the **Media** section of the **Home** page, to make the latest release more exciting and interesting for our fans.
-- As band member, I can advertise that the band is available for gigs and festivals through the **Contact** page of the site.
+- As band member, I can easily put the latest information up on the **News** section of the [**Home**](index.html) page, so that fans and promoters are kept updated.
+- As band member, I can embed media from the latest project in the **Media** section of the [**Home**](index.html) page, to make the latest release more exciting and interesting for our fans.
+- As band member, I can advertise that the band is available for gigs and festivals through the [**Contact**](contact.html) page of the site.
 - As band member, I will eventually be able to add merchandise and CDs to the **Shop** page, so I can sell directly to the fans.
 
 #### **The Music Fan**
 
 - As a music fan, I can find out everything I need to know about the band in one place, when I search for new music to listen to.
 - As a metal music fan specifically interested in Celtic/Gaelic/folk music, I can find the band site through certain keywords found throughout the site.
-- As a music fan who has been recommended the band by a friend, I can find everything I need on the site (through the **Biography** {'The Band'} & **Discography** pages) to decide whether the band is for me.
+- As a music fan who has been recommended the band by a friend, I can find everything I need on the site (through the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages) to decide whether the band is for me.
 - As a music fan who has seen the band live, I can get a clear idea of the bands sound through listening to music on the **Audio Player** or watching the **Teaser Video** in the **Media** section.
 - As a music fan who already knows/likes the band, I can check the **Home** page for the latest news on gigs and upcoming releases, and I will soon be able to visit the **Shop** page to puchase the latest merchandise and CDs.
-- As a music fan, I can get in touch with the band on the **Contact** page and let the band know why I am making contact through the **Contact Form**.
+- As a music fan, I can get in touch with the band on the [**Contact**](contact.html) page and let the band know why I am making contact through the **Contact Form**.
 
 #### **The Promoter**
 
 - As promoter, I can check the **News** section to see if the band are currently active and looking for gigs.
-- As promoter, I can use the **Contact** page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
+- As promoter, I can use the [**Contact**](contact.html) page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
 
 #### **The Journalist**
 
-- As journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the **Home**, **Biography** {'The Band'} & **Discography** pages of the site.
-- As journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the **Biography** {'The Band'} & **Discography** pages.
+- As journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the [**Home**](index.html), [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages of the site.
+- As journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages.
 
 #### **The Record Label**
 
 - As a record label employee who has been sent a promo pack from the band, I can browse the site to get a feel for the ethos and imagery the band is looking to evoke.
-- As a record label employee who has been recommended the band byu another professional or promoter, I can get in contact with the band via the **Contact** page and specifically tell the band the reason I am making contact through the **Contact Form**.
+- As a record label employee who has been recommended the band byu another professional or promoter, I can get in contact with the band via the [**Contact**](contact.html) page and specifically tell the band the reason I am making contact through the **Contact Form**.
 
 ### **Wireframes**
 
-I used Adobe XD to design and create wireframes for the site. 
+I used Adobe XD to design and create [**Wireframes**](assets/wireframes/mockups-desktop.pdf) for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on 
 
 #### **Basic Wireframes**
 
