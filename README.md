@@ -1,6 +1,6 @@
-# **THE _CORR MHÓNA_ BAND WEBSITE**
-
 ![Corr Mhóna Banner Logo](assets/images/banner-logo1.jpg "Corr Mhóna Banner Logo")
+
+# **THE _CORR MHÓNA_ BAND WEBSITE**
 
 ## **Introduction**
 
@@ -70,17 +70,17 @@ There are a number of different types of user which may visit the site, each wit
 - As a music fan who already knows/likes the band, I can check the **Home** page for the latest news on gigs and upcoming releases, and I will soon be able to visit the **Shop** page to puchase the latest merchandise and CDs.
 - As a music fan, I can get in touch with the band on the [**Contact**](contact.html) page and let the band know why I am making contact through the **Contact Form**.
 
-#### **The Promoter**
+#### The Promoter
 
 - As promoter, I can check the **News** section to see if the band are currently active and looking for gigs.
 - As promoter, I can use the [**Contact**](contact.html) page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
 
-#### **The Journalist**
+#### The Journalist
 
 - As journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the [**Home**](index.html), [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages of the site.
 - As journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages.
 
-#### **The Record Label**
+#### The Record Label
 
 - As a record label employee who has been sent a promo pack from the band, I can browse the site to get a feel for the ethos and imagery the band is looking to evoke.
 - As a record label employee who has been recommended the band byu another professional or promoter, I can get in contact with the band via the [**Contact**](contact.html) page and specifically tell the band the reason I am making contact through the **Contact Form**.
@@ -89,26 +89,25 @@ There are a number of different types of user which may visit the site, each wit
 
 I used Adobe XD to design and create **Wireframes** for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on the colour palette, theme and artistic direction of the site.
 
-#### **Basic Wireframes**
+#### Basic Wireframes
 
-The basic wireframes are available within this repository in two PDFs; one for [Mobile](assets/wireframes/wireframes-mobile.pdf) and one for [Desktop](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1/), with some changes (see [**Design Changes**](#design-changes)).
+The basic **Wireframes** are available within this repository in two PDFs; one for [Mobile](assets/wireframes/wireframes-mobile.pdf) and one for [Desktop](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1/), with some changes (see [**Design Changes**](#design-changes)).
 
-#### **Full Asset Mockups**
+#### Full Asset Mockups
 
-asdfsadf
+The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The mobile mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the desktop version is [here](assets/wireframes/mockups-desktop.pdf).
 
 ### **Design Choices**
 
-asfdsdaf
+#### Art and Assets
+
+As the band relates to and promotes natural imagery in there music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site. I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [??]() to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance.
+
+#### Shapes and Impressions
+
+asdfasdfsadfasdfds
 
 ### **Design Changes**
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ___
 
