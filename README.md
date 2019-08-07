@@ -15,6 +15,7 @@ A variety of features have been implemented already, and there are several more 
 ## **Table of Contents**
 1. [User Experience](#user-experience)
     - [User Stories](#user-stories)
+        - [The Band Member](#the-band-member)
         - [The Music Fan](#the-music-fan)
         - [The Promoter](#the-promoter)
         - [The Journalist](#the-journalist)
@@ -53,14 +54,14 @@ I have tried to use these principles when creating a User Experience for our web
 
 There are a number of different types of user which may visit the site, each with different goals and motivations. I have listed them below in five categories; The Band Member, The Music Fan, The Promoter, The Journalist, The Record Label.
 
-#### **The Band Member**
+#### The Band Member
 
 - As band member, I can easily put the latest information up on the **News** section of the [**Home**](index.html) page, so that fans and promoters are kept updated.
 - As band member, I can embed media from the latest project in the **Media** section of the [**Home**](index.html) page, to make the latest release more exciting and interesting for our fans.
 - As band member, I can advertise that the band is available for gigs and festivals through the [**Contact**](contact.html) page of the site.
 - As band member, I will eventually be able to add merchandise and CDs to the **Shop** page, so I can sell directly to the fans.
 
-#### **The Music Fan**
+#### The Music Fan
 
 - As a music fan, I can find out everything I need to know about the band in one place, when I search for new music to listen to.
 - As a metal music fan specifically interested in Celtic/Gaelic/folk music, I can find the band site through certain keywords found throughout the site.
