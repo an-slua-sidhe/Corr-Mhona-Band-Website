@@ -24,18 +24,51 @@ A variety of features have been implemented already, and there are several more 
         - [Basic Wireframes](#basic-wireframes)
         - [Full Asset Mockups](#full-asset-mockups)
     - [Design Choices](#design-choices)
+        - [Images](#images)
+        - [Colours](#colours)
+        - [Fonts](#fonts)
+        - [Icons](#icons)
     - [Design Changes](#design-changes)
+        - [General](#general)
+        - [Mobile](#mobile)
+        - [Desktop](#desktop)
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
+        - [Home](#home-page)
+        - [Biography {'The Band'}](#biography)
+        - [Discography](#discography)
+        - [Contact](#contact)
     - [Future Features](#future-features)
-
+        - [Contact Form](#contact-form)
+        - [Shop](#shop)
+        - [Flip Cards](#flip-cards)
 3. [Technologies Used](#technologies-used)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Adobe XD](#adobe-xd)
+    - [VSCode](#vscode)
+    - [Github](#github)
+    - [Javascript](#javascript)
+    - [Bootstrap](#bootstrap)
+    - [Canva](#canva)
+    - [Favicon](#??)
+    - [Font Awesome](#font-awesome)
+    - [HTML Code Checker](#html-code-checker)
+    - [CSS Code Checker](#css-code-checker)
 
 4. [Testing](#testing)
+    - [Developer Tools](#developer-tools)
+        - [Chrome](#chrome)
+        - [Firefox](#firefox)
+        - [Internet Explorer](#internet-explorer)
 
 5. [Deployment](#deployment)
-
+    - [Media Queries](#media-queries)
+        - [Mobile](#mobile)
+        - [Tablet](#tablet)
+        - [Desktop](#desktop)
+            
 6. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -99,35 +132,46 @@ The full library of **Corr Mhóna** assets were added to the project when the **
 
 ### **Design Choices**
 
-#### Art and Assets
+#### Images
 
-- **Images**  
 As the band relates to and promotes natural imagery in their music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site, with other images used to enhance where necessary. The superb [__*Dair*__](#assets/images/dair-art.jpg) album cover was used as the main **Hero Image** for the **Landing Page**, with a [**Banner Logo**](#assets/images/banner-logo1.jpg) used at the top of the other pages. The new album [poster art](#assets/images/dair-dryad.jpg) and a [live photo](#assets/images/band-live2jpg) of the band were included in the [**Home**](#index.html) page **Media** section. A photo of each band member was included in the **Band Member** section of the [**Biography**](#bio.html) {'The Band'} page. All three Corr Mhóna CD covers were used in the [**Discography**](#disc.html) page, whereas the new album poster art was used as a background image for the [**Contact**](#contact.html) page.
 
-- **Colours**  
+#### Colours
+
 I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [**Canva**](https://www.canva.com/) to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance. I sought a subtle contrast between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](#index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](#index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
 
-- **Fonts**  
-I used [**Google Fonts**](#https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](#https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section.
-'Gafata', sans-serif
+#### Fonts
+
+I used [**Google Fonts**](#https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](#https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section. The back up font is *Sans-serif*.
 
 
-- **Icons**  
-Bespoke Corr Mhóna Navicon
-Favicon social media link icons 
+#### Icons
 
-#### Shapes and Impressions
-
-- Transitions
-
-- Media Queries
-
-- ??
-
-I tried to keep a natural feel with regard to the spacial aspect of the site design.  The 
+A bespoke Corr Mhóna navicon was created for the site, using [??](). Social media link icons were supplied by [Font Awesome](#https://fontawesome.com/).
 
 ### **Design Changes**
 
+#### General
+
+- ??
+
+#### Mobile
+
+- CTA Position
+
+Same throughout
+
+- Audio Player 
+
+Not on Mobile
+
+- Irish Language Option 
+
+at Higher Res Only
+
+#### Desktop
+
+- Translucent Navbar
 ___
 
 ## **Features**
@@ -162,6 +206,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Bootstrap
 - Canva
 - Favicon
+- [Font Awesome](#https://fontawesome.com/)
 - HTML Code Checker
 - CSS Code Checker
 
