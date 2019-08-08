@@ -6,11 +6,11 @@
 
 This is the repository for the official **Corr Mhóna** website.
 
-The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-1/).
+The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-1).
 
-It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses/) with the **Code Institute**, Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
+It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses) with the **Code Institute**, Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
 
-The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com/) and [Facebook](https://www.facebook.com/corrmhona/). However, there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform. As a band member myself, I decided to undertake this task with the skills I had learned during the course.
+The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com) and [Facebook](https://www.facebook.com/corrmhona). However, there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform. As a band member myself, I decided to undertake this task with the skills I had learned during the course.
 
 A variety of features have been implemented already, and there are several more to come in the near future. I have used the band's own assets to populate the site and inspire its design. There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
 
@@ -135,7 +135,7 @@ I used Adobe XD to design and create **Wireframes** for the site. It was decided
 
 #### Basic Wireframes
 
-The basic **Wireframes** are available within this repository in two PDFs; one for [Mobile](assets/wireframes/wireframes-mobile.pdf) and one for [Desktop](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1/), with some changes (see [**Design Changes**](#design-changes)).
+The basic **Wireframes** are available within this repository in two PDFs; one for [Mobile](assets/wireframes/wireframes-mobile.pdf) and one for [Desktop](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1), with some changes (see [**Design Changes**](#design-changes)).
 
 #### Full Asset Mockups
 
@@ -149,7 +149,7 @@ As the band relates to and promotes natural imagery in their music and art, it w
 
 #### Colours
 
-I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [**Canva**](https://www.canva.com/) to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance. I sought a subtle contrast between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](#index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](#index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
+I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [**Canva**](https://www.canva.com) to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance. I sought a subtle contrast between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](#index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](#index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
 
 #### Fonts
 
@@ -167,7 +167,7 @@ A bespoke Corr Mhóna navicon was created for the site, using [??](). Social med
     The original [**Contact**](#contact.html) page was considered unsatisying and boring in comparison to the other pages, once the site was fully constructed. A new style was chosen for the **Contact** page therefore, with the new album [Poster Art](#assets/images/dair-dryad.jpg) being used as an atmospheric background for the page's **Section**.
 
 - **Corr Mhóna Live Photo**  
-    A different [**Live Photo**](#assets/images/band-live2.jpg) was chosen, as this shows the band playing at the [**Siege of Limerick**](http://siegeoflimerick.net/). This echoes the story in the **News** section about **Corr Mhóna** playing at the festival.
+    A different [**Live Photo**](#assets/images/band-live2.jpg) was chosen, as this shows the band playing at the [**Siege of Limerick**](http://siegeoflimerick.net). This echoes the story in the **News** section about **Corr Mhóna** playing at the festival.
 
 - **Discography Order**  
     The chronological order of the discography releases was swapped, with the earliest recording (__*An Chéad Thríail*__) appearing at the top of the [**Discography**](#disc.html) page. This was becaue the art for __*Dair*__ has been used extensively elsewhere, and the so other covers can provide some variety here.
@@ -198,14 +198,14 @@ ___
 
 ## **Features**
 
-There are four pages on the site, with a number of features appearing on each page and certain features being unique to one page. The basic layout of the site was created using the [**Bootstrap 4**](#https://getbootstrap.com/) grid system (which is based on [Flexbox](#https://www.w3schools.com/css/css3_flexbox.asp)), with some alterations and additions.
+There are four pages on the site, with a number of features appearing on each page and certain features being unique to one page. The basic layout of the site was created using the [**Bootstrap 4**](#https://getbootstrap.com) grid system (which is based on [Flexbox](#https://www.w3schools.com/css/css3_flexbox.asp)), with some alterations and additions.
 
 ### **Existing Features**
 
 #### Common Features
 
 - **Navbar**  
-    I modified the typical [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/navbar/) **Navbar** to suit the site, which included fixing it to top so it would remain there while scrolling, with a translucent background. I modified [Javascript] from [**JS Fiddle**](#https://jsfiddle.net/wamosjk/ufhp9s15/) to make an opaque background for when the page scrolled. The __*Gaeilge*__ (Irish language) link changes colour from black to white on scroll, whereas the **Audio Player** text does not display. All of these  keep the text legible when scrolling.
+    I modified the typical [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site, which included fixing it to top so it would remain there while scrolling, with a translucent background. I modified [Javascript] from [**JS Fiddle**](#https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque background for when the page scrolled. The __*Gaeilge*__ (Irish language) link changes colour from black to white on scroll, whereas the **Audio Player** text does not display. All of these  keep the text legible when scrolling.
     The **Navbar** turns into a **Burger Button Menu** on mobile, and this changes colour on scroll for visibility, also enabled with the same **Javascript** code.
 
 - **Gaeilge Link (Irish Language Option)**  
@@ -221,7 +221,7 @@ There are four pages on the site, with a number of features appearing on each pa
     There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**] and [**Biography**] pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile of desktop (see [**Deployment**](#deployment)). The [**Contact**](#contact) and [**Discography**](#disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
 
 - **Footer**
-    A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](#https://corrmona.bandcamp.com/), [**Youtube**](#https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](#https://www.facebook.com/corrmhona/) and [**Instagram**](#https://www.instagram.com/corrmhona/). The icons for each social media platform were provided by [**Font Awesome**](#https://fontawesome.com/).
+    A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](#https://corrmona.bandcamp.com), [**Youtube**](#https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](#https://www.facebook.com/corrmhona) and [**Instagram**](#https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](#https://fontawesome.com).
 
 #### Home
 
@@ -253,7 +253,7 @@ There are four pages on the site, with a number of features appearing on each pa
 #### Contact
 
 - **Contact Section**  
-    This section is different to the other three pages. There is a large background image (the new album [**Poster Art**](#assets/images/dair-dryad.jpg)) and a central element on an opaque background. This contains a [**Contact Form**](#contact.html) which is not functional yet, but will be in future. It is a modified version of the [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/forms/) form code. The form has several fields which ask the user to let the band know why they are getting in touch; an e-mail field, a set of three radio buttons, and a larger text input field. There is a [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/buttons/) button below these features, which has been modified so that its colours (maroon and cream) match the site.
+    This section is different to the other three pages. There is a large background image (the new album [**Poster Art**](#assets/images/dair-dryad.jpg)) and a central element on an opaque background. This contains a [**Contact Form**](#contact.html) which is not functional yet, but will be in future. It is a modified version of the [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/forms) form code. The form has several fields which ask the user to let the band know why they are getting in touch; an e-mail field, a set of three radio buttons, and a larger text input field. There is a [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/buttons) button below these features, which has been modified so that its colours (maroon and cream) match the site.
 
 ### **Future Features**
 
@@ -287,28 +287,28 @@ All the technologies used to create this project are listed below, along with th
 
 - The wireframes and mockups for this site were designed in **Adobe XD**.
 
-### [**VSCode**](#https://code.visualstudio.com/)
+### [**VSCode**](#https://code.visualstudio.com)
 
 - All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
 
-### [**Github**](#https://github.com/)
+### [**Github**](#https://github.com)
 
 - Versioning of this project was done through **Github**.
 
 ### [**Javascript**](#https://en.wikipedia.org/wiki/JavaScript)
 
 - **Javascript** was used a couple of times when creating this site.
-    - There were [three plugins](#https://getbootstrap.com/docs/4.3/getting-started/introduction/) required so **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
-    - I also copied and modified **Javascript** code from [**Js Fiddle**](#https://jsfiddle.net/wamosjk/ufhp9s15/) to create transitions while scrolling.
+    - There were [three plugins](#https://getbootstrap.com/docs/4.3/getting-started/introduction) required so **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
+    - I also copied and modified **Javascript** code from [**Js Fiddle**](#https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
 
-### [**Bootstrap**](#https://getbootstrap.com/)
+### [**Bootstrap**](#https://getbootstrap.com)
 
 - The site was built using **Bootstrap's** grid system. I also modified several **Bootstrap** components.
     - [**Navbar**](#https://getbootstrap.com/docs/4.0/components/navbar/)
     - [**Buttons**](#https://getbootstrap.com/docs/4.0/components/buttons/)
     - [**Contact Form**](#https://getbootstrap.com/docs/4.0/components/forms/)
 
-### [**Canva**](#https://www.canva.com/)
+### [**Canva**](#https://www.canva.com)
 
 - I found my colour palette by uploading the new album [**Cover Art**](#assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
 
@@ -316,19 +316,19 @@ All the technologies used to create this project are listed below, along with th
 
 - ??
 
-### [**Font Awesome**](#https://fontawesome.com/)
+### [**Font Awesome**](#https://fontawesome.com)
 
 - The **Social Media Icons** were supplied using **Font Awesome**.
 
-### [**HTML Code Checker**](#https://validator.w3.org/)
+### [**HTML Code Checker**](#https://validator.w3.org)
 
 - I checked my HTML with the **W3C Markup Validation Service**
 
-### [**CSS Code Checker**](#https://jigsaw.w3.org/css-validator/)
+### [**CSS Code Checker**](#https://jigsaw.w3.org/css-validator)
 
 - I checked my CSS with the **W3C CSS Validation Service**
 
-### [**CSS Auto-prefixer**](#https://autoprefixer.github.io/)
+### [**CSS Auto-prefixer**](#https://autoprefixer.github.io)
 
 - The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
 
@@ -437,12 +437,12 @@ ___
 
 ## **Deployment**
 
-- This project is deployed live on [**Github Pages**](#https://an-slua-sidhe.github.io/milestone-1/).
+- This project is deployed live on [**Github Pages**](#https://an-slua-sidhe.github.io/milestone-1).
 
-- You can run the code in your chosen local **Integrated Development Environment** (**IDE**, e.g. [**VS Code**](#https://code.visualstudio.com/), [**AWS CLoud9**](#https://aws.amazon.com/cloud9/)).
+- You can run the code in your chosen local **Integrated Development Environment** (**IDE**, e.g. [**VS Code**](#https://code.visualstudio.com), [**AWS CLoud9**](#https://aws.amazon.com/cloud9)).
     1. Open the **Project Repository** in [**Github**](https://github.com/an-slua-sidhe/milestone-1).
     2. Look for the green *Clone or Download* button at the top right of the repository.
-    3. If using [**Github Desktop**](#https://desktop.github.com/), chose to *Open in Desktop*.
+    3. If using [**Github Desktop**](#https://desktop.github.com), chose to *Open in Desktop*.
     4. If you want to **Clone** the files into a **Git** repository, chose to copy the URL from the same menu (# 2.). Open your chosen **Command Line Interface** (**CLI**, e.g. [**Gitbash**](#https://git-scm.com/downloads)) and use the following command:
         ```
         git clone https://github.com/an-slua-sidhe/milestone-1.git
