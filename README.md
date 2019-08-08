@@ -83,7 +83,7 @@ There are a number of different types of user which may visit the site, each wit
 #### The Record Label
 
 - As a record label employee who has been sent a promo pack from the band, I can browse the site to get a feel for the ethos and imagery the band is looking to evoke.
-- As a record label employee who has been recommended the band byu another professional or promoter, I can get in contact with the band via the [**Contact**](contact.html) page and specifically tell the band the reason I am making contact through the **Contact Form**.
+- As a record label employee who has been recommended the band by another professional or promoter, I can get in contact with the band via the [**Contact**](contact.html) page and specifically tell the band the reason I am making contact through the **Contact Form**.
 
 ### **Wireframes**
 
@@ -95,17 +95,36 @@ The basic **Wireframes** are available within this repository in two PDFs; one f
 
 #### Full Asset Mockups
 
-The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The mobile mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the desktop version is [here](assets/wireframes/mockups-desktop.pdf).
+The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The mobile mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the desktop version is [here](assets/wireframes/mockups-desktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. Final PDFs were of such high quality (due the size of the art assets) that I had to resize them before I uploaded them to the repository.
 
 ### **Design Choices**
 
 #### Art and Assets
 
-As the band relates to and promotes natural imagery in there music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site. I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [??]() to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance.
+- **Images**  
+As the band relates to and promotes natural imagery in their music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site, with other images used to enhance where necessary. The superb [__*Dair*__](#assets/images/dair-art.jpg) album cover was used as the main **Hero Image** for the **Landing Page**, with a [**Banner Logo**](#assets/images/banner-logo1.jpg) used at the top of the other pages. The new album [poster art](#assets/images/dair-dryad.jpg) and a [live photo](#assets/images/band-live2jpg) of the band were included in the [**Home**](#index.html) page **Media** section. A photo of each band member was included in the **Band Member** section of the [**Biography**](#bio.html) {'The Band'} page. All three Corr Mhóna CD covers were used in the [**Discography**](#disc.html) page, whereas the new album poster art was used as a background image for the [**Contact**](#contact.html) page.
+
+- **Colours**  
+I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [**Canva**](https://www.canva.com/) to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance. I sought a subtle contrast between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](#index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](#index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
+
+- **Fonts**  
+I used [**Google Fonts**](#https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](#https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section.
+'Gafata', sans-serif
+
+
+- **Icons**  
+Bespoke Corr Mhóna Navicon
+Favicon social media link icons 
 
 #### Shapes and Impressions
 
-asdfasdfsadfasdfds
+- Transitions
+
+- Media Queries
+
+- ??
+
+I tried to keep a natural feel with regard to the spacial aspect of the site design.  The 
 
 ### **Design Changes**
 
@@ -133,6 +152,18 @@ ___
 ## **Technologies Used**
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- HTML
+- CSS
+- Adobe XD
+- VSCode
+- Github
+- Javascript
+- Bootstrap
+- Canva
+- Favicon
+- HTML Code Checker
+- CSS Code Checker
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
