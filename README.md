@@ -4,7 +4,9 @@
 
 ## **Introduction**
 
-**This** is the official [**Corr Mhóna**](https://an-slua-sidhe.github.io/milestone-1/) website.
+This is the repository for the official **Corr Mhóna** website.
+
+The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-1/).
 
 It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses/) with the **Code Institute**, Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
 
@@ -13,6 +15,7 @@ The band already had an online presence through third party sites such as [Bandc
 A variety of features have been implemented already, and there are several more to come in the near future. I have used the band's own assets to populate the site and inspire its design. There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
 
 ## **Table of Contents**
+
 1. [User Experience](#user-experience)
     - [User Stories](#user-stories)
         - [The Band Member](#the-band-member)
@@ -35,7 +38,8 @@ A variety of features have been implemented already, and there are several more 
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
-        - [Home](#home-page)
+        - [Common Features](#common-features)
+        - [Home](#home)
         - [Biography {'The Band'}](#biography)
         - [Discography](#discography)
         - [Contact](#contact)
@@ -43,6 +47,7 @@ A variety of features have been implemented already, and there are several more 
         - [Contact Form](#contact-form)
         - [Shop](#shop)
         - [Flip Cards](#flip-cards)
+
 3. [Technologies Used](#technologies-used)
     - [HTML](#html)
     - [CSS](#css)
@@ -62,20 +67,26 @@ A variety of features have been implemented already, and there are several more 
         - [Chrome](#chrome)
         - [Firefox](#firefox)
         - [Internet Explorer](#internet-explorer)
+    - [User Scenarios](#user-scenarios)
+        - [Listening to New Music](#listening-to-new-music)
+        - [Finding out the Latest News](#finding-out-the-latest-news)
+        - [Purchasing Merchandise and CDs](#purchasing-merchandise-and-cds)
+        - [Hearing the New Album](#hearing-the-new-album)
+        - [Finding Out About the Band](#finding-out-about-the-band)
+        - [Contacting the Band](#contacting-the-band)
 
 5. [Deployment](#deployment)
     - [Media Queries](#media-queries)
         - [Mobile](#mobile)
         - [Tablet](#tablet)
         - [Desktop](#desktop)
-            
+
 6. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
 ___
-
 
 ## **User Experience**
 
@@ -144,7 +155,6 @@ I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), a
 
 I used [**Google Fonts**](#https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](#https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section. The back up font is *Sans-serif*.
 
-
 #### Icons
 
 A bespoke Corr Mhóna navicon was created for the site, using [??](). Social media link icons were supplied by [Font Awesome](#https://fontawesome.com/).
@@ -153,69 +163,200 @@ A bespoke Corr Mhóna navicon was created for the site, using [??](). Social med
 
 #### General
 
-- ??
+- **Contact Page Background**  
+    The original [**Contact**](#contact.html) page was considered unsatisying and boring in comparison to the other pages, once the site was fully constructed. A new style was chosen for the **Contact** page therefore, with the new album [Poster Art](#assets/images/dair-dryad.jpg) being used as an atmospheric background for the page's **Section**.
+
+- **Corr Mhóna Live Photo**  
+    A different [**Live Photo**](#assets/images/band-live2.jpg) was chosen, as this shows the band playing at the [**Siege of Limerick**](http://siegeoflimerick.net/). This echoes the story in the **News** section about **Corr Mhóna** playing at the festival.
+
+- **Discography Order**  
+    The chronological order of the discography releases was swapped, with the earliest recording (__*An Chéad Thríail*__) appearing at the top of the [**Discography**](#disc.html) page. This was becaue the art for __*Dair*__ has been used extensively elsewhere, and the so other covers can provide some variety here.
 
 #### Mobile
 
-- CTA Position
+- **CTA Position**  
+    Though the original wireframe design had the molbile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
 
-Same throughout
+- **Audio Player**  
+    The **Audio Player** did not look well on mobile resolutions, and was removed.
 
-- Audio Player 
+- **Irish Language Option**  
+    The **_Gaeilge_** (Irish language) link did not work well with the mobile **Burger Menu Button**, and now displays at higher resolutions only.
 
-Not on Mobile
-
-- Irish Language Option 
-
-at Higher Res Only
+- **Copyright Text**  
+    This text only appears on tablet or desktop, as it was decided that the **Social Media** links looked better centralised by themeselves on mobile.
 
 #### Desktop
 
-- Translucent Navbar
+- **Translucent Navbar**  
+    Though the original wireframes show a cream-coloured background for the **Navbar**, a translucent background was chosen for the finished site, as this compliments the parchement style of the **Hero Image** and **Banner Logo**.  This is not visible on mobile, where the **Navbar** becomes a **Burger Menu Button**.
+
+- **Contact Page Navbar**  
+    On 1500px or higher the [**Contact**](#contact.html) page **Navbar** become opaque as soon as the page loads, and the **Banner Logo** does not display. This showcases the background artwork on larger resolutions.
+
 ___
 
 ## **Features**
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+There are four pages on the site, with a number of features appearing on each page and certain features being unique to one page. The basic layout of the site was created using the [**Bootstrap 4**](#https://getbootstrap.com/) grid system (which is based on [Flexbox](#https://www.w3schools.com/css/css3_flexbox.asp)), with some alterations and additions.
+
 ### **Existing Features**
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### Common Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- **Navbar**  
+    I modified the typical [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/navbar/) **Navbar** to suit the site, which included fixing it to top so it would remain there while scrolling, with a translucent background. I modified [Javascript] from [**JS Fiddle**](#https://jsfiddle.net/wamosjk/ufhp9s15/) to make an opaque background for when the page scrolled. The __*Gaeilge*__ (Irish language) link changes colour from black to white on scroll, whereas the **Audio Player** text does not display. All of these  keep the text legible when scrolling.
+    The **Navbar** turns into a **Burger Button Menu** on mobile, and this changes colour on scroll for visibility, also enabled with the same **Javascript** code.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- **Gaeilge Link (Irish Language Option)**  
+     This link was coding inside the **Bootstrap Navbar** div mentioned in the previous section. The description of how it changes when scrolled can be found above. A separate Irish language **HTML** page was created for each of the four main pages ([index_ga.html](#index_ga.html) e.g.). This link, available on every page, allows the user to navigate between the Irish and English versions of the site. All text (including image descriptions and alternative text), the **HTML** language setting (i.e. html lang="ga") and headings were translated into the Irish language by me. Link changes to maroon on hover, from black to white on scroll, and does not display on mobile for aesthetic reasons.
+
+- **Audio Player**  
+    A basic **HTML Audio Player** was included to the right of the **Header**. This contains a sample from the upcoming album, which is available in both [**MP3**](#assets/audio/dair.mp3) and [**OGG**](#assets/audio/dair.ogg) format. Some text advertising the player can be seen beneath it. The player does not appear on the mobile version of the site. The audio player text disappears when scrolled. This text was not included on the [**Contact**](#contact.html) page as the **Navbar** is already in its scrolled form when the page loads.
+
+- **Banner Logo**  
+    All other pages besides the **Home** page display a [**Banner Logo**](#assets/images/banner-logo1.jpg) instead of the **Hero Image**. On the [**Contact**](#contact.html) page the **Banner Logo** is not displayed above 1500px (see [**Media Queries**](#media-queries) below).
+
+- **Section**  
+    There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**] and [**Biography**] pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile of desktop (see [**Deployment**](#deployment)). The [**Contact**](#contact) and [**Discography**](#disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
+
+- **Footer**
+    A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](#https://corrmona.bandcamp.com/), [**Youtube**](#https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](#https://www.facebook.com/corrmhona/) and [**Instagram**](#https://www.instagram.com/corrmhona/). The icons for each social media platform were provided by [**Font Awesome**](#https://fontawesome.com/).
+
+#### Home
+
+- **Hero Image**  
+    This [image](#assets/images/dair-art.jpg) is the new album cover, and provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platorms.
+
+- **Call to Action (CTA)**  
+    There is **CTA** at the bottom of the [**Landing Page**](#index.html) envelope. This tells users that a new album is coming soon, and provides a link for them to click to get more information, bringing them to the **News Section** of the page.
+
+- **Media Section**  
+    This section contains an embedded [**Youtube** video](#https://www.youtube.com/watch?v=228sZcdZ6O0) that plays a **Teaser Video** with a medley of tunes from the new album. There are also a couple of images in this section; the new album [poster art](#assets/images/dair-dryad.jpg) and a [live photo](#assets/images/band-live2jpg) of the band.
+
+- **News Section**  
+    There are three elements containing text in this section. These display the latest news about the band. The third element ('Corr Mhóna play the Siege of Limerick') does not display on mobile to make the site more compact.
+
+#### Biography
+
+- **Band Members Section**  
+    This [element](#bio.html) contains photos of the four band members and their names. It displays to the left for desktop and to the bottom on mobile and tablet.
+
+- **Biography Section**  
+    This is an [element](#bio.html) which contains a large amount of text. All links within the text navigate to their respective targets. The **Biography Section** displays to the right for desktop and to the top on mobile and tablet.
+
+#### Discography
+
+- **Discography Section**  
+    There is only one main section container in the [**Discography**](#disc.html) page. There are three groups of elements within it, each group with an **Album Cover**, an **Album Title** and **Album Text**. These are displayed on a dark green background, from the oldest release to the newest. On higher resolutions, the three elements appear in a containing div with a sand-coloured background, whereas on mobile the appear separately from the top down (i.e. **Album Cover**, **Album Title**, **Album Text**).
+
+#### Contact
+
+- **Contact Section**  
+    This section is different to the other three pages. There is a large background image (the new album [**Poster Art**](#assets/images/dair-dryad.jpg)) and a central element on an opaque background. This contains a [**Contact Form**](#contact.html) which is not functional yet, but will be in future. It is a modified version of the [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/forms/) form code. The form has several fields which ask the user to let the band know why they are getting in touch; an e-mail field, a set of three radio buttons, and a larger text input field. There is a [**Bootstrap**](#https://getbootstrap.com/docs/4.0/components/buttons/) button below these features, which has been modified so that its colours (maroon and cream) match the site.
 
 ### **Future Features**
 
-- Another feature idea
+#### Contact Form
+
+The contact form needs **Javascript** to be fully functional. There are a couple of instances of Javascript code on this site, but I have yet to start learning the language, and so the ability of the **Contact Form** to receive and transmit information via a server will be part of a future expansion.
+
+#### Shop
+
+As with the **Contact Form** above, the **Shop** page needs **Javascript** to function. It is one of the major benefits of the band having its own site, and will provide the band with 100% profit from sales. Currently the **Shop** option in the **Navbar** is crossed out and inactive, but a future iteration of this project will use **Javascript** to make a fully functional and interactive e-commerce page for the site.
+
+#### Flip Cards
+
+This is another possible future feature for the site, though a purely aesthetic one; making images and photos function as **Flip Cards**. Each flip card would have extra information about whatever the image contained. This would make the site more dynamic and enjoyable for the user.
 
 ___
 
 ## **Technologies Used**
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+All the technologies used to create this project are listed below, along with their usage. Simply click on the title for a link to the main site. When there were separate instances where a technology was used, I have listed each link below.
 
-- HTML
-- CSS
-- Adobe XD
-- VSCode
-- Github
-- Javascript
-- Bootstrap
-- Canva
-- Favicon
-- [Font Awesome](#https://fontawesome.com/)
-- HTML Code Checker
-- CSS Code Checker
+### [**HTML**](#https://en.wikipedia.org/wiki/HTML5)
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- This project's structure is based on **HTML 5**.
+
+### [**CSS**](#https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+- This project's style was created using **CSS 3**.
+
+### [**Adobe XD**](#https://www.adobe.com/ie/products/xd.html)
+
+- The wireframes and mockups for this site were designed in **Adobe XD**.
+
+### [**VSCode**](#https://code.visualstudio.com/)
+
+- All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
+
+### [**Github**](#https://github.com/)
+
+- Versioning of this project was done through **Github**.
+
+### [**Javascript**](#https://en.wikipedia.org/wiki/JavaScript)
+
+- **Javascript** was used a couple of times when creating this site.
+    - There were [three plugins](#https://getbootstrap.com/docs/4.3/getting-started/introduction/) required so **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
+    - I also copied and modified **Javascript** code from [**Js Fiddle**](#https://jsfiddle.net/wamosjk/ufhp9s15/) to create transitions while scrolling.
+
+### [**Bootstrap**](#https://getbootstrap.com/)
+
+- The site was built using **Bootstrap's** grid system. I also modified several **Bootstrap** components.
+    - [**Navbar**](#https://getbootstrap.com/docs/4.0/components/navbar/)
+    - [**Buttons**](#https://getbootstrap.com/docs/4.0/components/buttons/)
+    - [**Contact Form**](#https://getbootstrap.com/docs/4.0/components/forms/)
+
+### [**Canva**](#https://www.canva.com/)
+
+- I found my colour palette by uploading the new album [**Cover Art**](#assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
+
+### [**Favicon**](??)
+
+- ??
+
+### [**Font Awesome**](#https://fontawesome.com/)
+
+- The **Social Media Icons** were supplied using **Font Awesome**.
+
+### [**HTML Code Checker**](#https://validator.w3.org/)
+
+- I checked my HTML with the **W3C Markup Validation Service**
+
+### [**CSS Code Checker**](#https://jigsaw.w3.org/css-validator/)
+
+- I checked my CSS with the **W3C CSS Validation Service**
+
+### [**CSS Auto-prefixer**](#https://autoprefixer.github.io/)
+
+- The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
 
 ___
 
 ## **Testing**
+
+### **Developer Tools**
+
+#### Chrome
+
+#### Firefox
+
+#### Internet Explorer
+
+### **User Scenarios**
+
+#### Listening to New Music
+
+#### Finding out the Latest News
+
+#### Purchasing Merchandise and CDs
+
+#### Hearing the New Album
+
+#### Finding Out About the Band
+
+#### Contacting the Band
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -239,6 +380,14 @@ ___
 
 ## **Deployment**
 
+### **Media Queries**
+
+#### Mobile
+
+#### Tablet
+
+#### Desktop
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -253,9 +402,11 @@ ___
 ## **Credits**
 
 ### **Content**
+
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### **Media**
+
 - The photos used in this site were obtained from ...
 
 ### **Acknowledgements**
