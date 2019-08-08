@@ -67,19 +67,19 @@ A variety of features have been implemented already, and there are several more 
         - [Chrome](#chrome)
         - [Firefox](#firefox)
         - [Internet Explorer](#internet-explorer)
-    - [User Scenarios](#user-scenarios)
-        - [Listening to New Music](#listening-to-new-music)
-        - [Finding out the Latest News](#finding-out-the-latest-news)
-        - [Purchasing Merchandise and CDs](#purchasing-merchandise-and-cds)
-        - [Hearing the New Album](#hearing-the-new-album)
-        - [Finding Out About the Band](#finding-out-about-the-band)
-        - [Contacting the Band](#contacting-the-band)
-
-5. [Deployment](#deployment)
     - [Media Queries](#media-queries)
         - [Mobile](#mobile)
         - [Tablet](#tablet)
         - [Desktop](#desktop)
+    - [User Scenarios](#user-scenarios)
+        - [Listening to the New Album](#listening-to-the-new-album)
+        - [Finding out the Latest News](#finding-out-the-latest-news)
+        - [Purchasing Merchandise and CDs](#purchasing-merchandise-and-cds)
+        - [Finding Out About the Band](#finding-out-about-the-band)
+        - [Contacting the Band](#contacting-the-band)
+    - [Outstanding Bugs](#outstanding-bugs)
+
+5. [Deployment](#deployment)
 
 6. [Credits](#credits)
     - [Content](#content)
@@ -338,77 +338,131 @@ ___
 
 ### **Developer Tools**
 
-#### Chrome
+I tested the site in **Developer Tools** on three internet browsers (**Chrome**, **Firefox** & **Internet Explorer**). Bugs and errors were tackled successfully in this way throughout the development process.
 
-#### Firefox
+- [**Chrome**](#https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds)
 
-#### Internet Explorer
+- [**Firefox**](#https://www.mozilla.org/en-US/firefox/new/)
+
+- [**Internet Explorer**](#https://www.microsoft.com/en-ie/download/internet-explorer.aspx)
+
+### **Media Queries**
+
+Over 20 separate **Media Query** parameters were set in the [**CSS** Code](#assets/css/style.css). Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I would use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
+
+#### Mobile
+
+- iPhone 4 (320 x 480)
+- Galaxy S5 (360 x 640)
+- iPhone X (375 x 812)
+
+#### Tablet
+
+- iPad (768 x 1024)
+- iPad Pro (1024 x 1366)
+
+#### Desktop
+
+- Laptop with MDPI Screen (1280 x 800)
+- Laptop with HiDPI Screen (1440 x 900)
+- Gaming Desktop (2560 x 1440)
+- 4K Monitor (3840 x 2160)
+- 4k Plus (4000 x 2200)
 
 ### **User Scenarios**
 
-#### Listening to New Music
+#### Listening to the New Album
+
+- **Audio Player** (Desktop):
+    1. Go to the [**Home**](#index.html) page.
+    2. Click on the **Audio Player** on the top right of the screen.
+
+- **Teaser Video**:
+    1. Go to the [**Home**](#index.html) page.
+    2. Look for the **Media** section farther down the page.
+    3. Click on the new album **Teaser Video** at the top of the section.
 
 #### Finding out the Latest News
 
+- **News Section**:
+    1. Go to the [**Home**](#index.html) page.
+    2. Scroll down to the **News Section**, just below the **Hero Image** and **CTA**.
+
 #### Purchasing Merchandise and CDs
 
-#### Hearing the New Album
+- **Shop**:
+    1. (This is a **Future Feature**).
+    2. Go to the **Navbar** on any page.
+    3. Click on the **Shop** nav item.
+
+- **Bandcamp**:
+    1. (Until the **Shop** is functional).
+    2. Scroll down to the **Footer** on any page.
+    3. Click on the **Bandcamp** icon.
+    4. Proceed to the **Corr Mhóna Bandcamp** site.
 
 #### Finding Out About the Band
 
+- **Biography Section**:
+    1. Go to the **Navbar** on any page.
+    2. Click on the [**Biography**](#bio.html) {'The Band'} link.
+    2. Scroll down to the **Biography Section** of the page.
+
 #### Contacting the Band
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- **Contact Form**:
+    1. (This is a **Future Feature**).
+    2. Go to the **Navbar** on any page.
+    3. Click on the [**Contact**](#contact.html) link.
+    4. Go to the **Contact Form** at the centre of the page.
+    5. Fill in your email, reason for contacting the band and message into the appropriate fields.
+    6. Click on the **'Send it!' Button** at the bottom of the **Contact Form**.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### **Outstanding Bugs**
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+There are a few errors and bugs that are worth noting. Some are due to a lack of functionality whereas others are due to a particular platform or medium reacting differently to the code.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- **Contact Form Inactive**  
+    This is still currently inactive until more Javascript functionality is enabled on the site.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- **Galaxy A5 Scrolling Issue**  
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+    When scrolling down on the **Home** page, the **Hero Image** becomes larger in size as you scroll. This does not effect performance or the **User Experience**, but hasn't appeared on other platforms.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- **Internet Explorer / Firefox Audio Player**  
+
+    The **Audio Player** is a simple HTML player, built using only the audio tag. On **Chrome** it looks well and matches the site aesthetics, but on Internet Explorer and Firefox, it is uglier and looks out of place.
 
 ___
 
 ## **Deployment**
 
-### **Media Queries**
+- This project is deployed live on [**Github Pages**](#https://an-slua-sidhe.github.io/milestone-1/).
 
-#### Mobile
-
-#### Tablet
-
-#### Desktop
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- You can run the code in your chosen local **Integrated Development Environment** (**IDE**, e.g. [**VS Code**](#https://code.visualstudio.com/), [**AWS CLoud9**](#https://aws.amazon.com/cloud9/)).
+    1. Open the **Project Repository** in [**Github**](https://github.com/an-slua-sidhe/milestone-1).
+    2. Look for the green *Clone or Download* button at the top right of the repository.
+    3. If using [**Github Desktop**](#https://desktop.github.com/), chose to *Open in Desktop*.
+    4. If you want to **Clone** the files into a **Git** repository, chose to copy the URL from the same menu (# 2.). Open your chosen **Command Line Interface** (**CLI**, e.g. [**Gitbash**](#https://git-scm.com/downloads)) and use the following command:
+        ```
+        git clone https://github.com/an-slua-sidhe/milestone-1.git
+        ```
+    5. To set up the files manually in a local repository, chose to **Download ZIP** and remove the files from the ZIP folder. Place them into the chosen location. If desired, set up a **Git** repository in this folder in your **CLI** with the following command:
+        ```
+        git init
+        ```
 ___
 
 ## **Credits**
 
 ### **Content**
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All content for the site is **Copyright Corr Mhóna 2019**, and the band are the sole owners of this property.
 
 ### **Media**
 
-- The photos used in this site were obtained from ...
+- All Media on site is wholly owned by the **Corr Mhóna**, and may not be used without their permission.
 
 ### **Acknowledgements**
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my bandmates, our music and from the many band's websites I have visited over the years. I am grateful to my Mentor Maranatha for his help and guidance during the design and development of the site.
