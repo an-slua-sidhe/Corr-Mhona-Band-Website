@@ -32,9 +32,9 @@ A variety of features have been implemented already, and there are several more 
         - [Fonts](#fonts)
         - [Icons](#icons)
     - [Design Changes](#design-changes)
-        - [General](#general)
-        - [Mobile](#mobile)
-        - [Desktop](#desktop)
+        - [General Changes](#general-changes)
+        - [Mobile Changes](#mobile-changes)
+        - [Desktop Changes](#desktop-changes)
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
@@ -162,7 +162,7 @@ A bespoke Corr Mhóna navicon was created for the site, using [??](). Social med
 
 ### **Design Changes**
 
-#### General
+#### General Changes
 
 - **Contact Page Background**  
     The original [**Contact**](contact.html) page was considered unsatisying and boring in comparison to the other pages, once the site was fully constructed. A new style was chosen for the **Contact** page therefore, with the new album [Poster Art](assets/images/dair-dryad.jpg) being used as an atmospheric background for the page's **Section**.
@@ -173,7 +173,7 @@ A bespoke Corr Mhóna navicon was created for the site, using [??](). Social med
 - **Discography Order**  
     The chronological order of the discography releases was swapped, with the earliest recording (__*An Chéad Thríail*__) appearing at the top of the [**Discography**](disc.html) page. This was becaue the art for __*Dair*__ has been used extensively elsewhere, and the so other covers can provide some variety here.
 
-#### Mobile
+#### Mobile Changes
 
 - **CTA Position**  
     Though the original wireframe design had the molbile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
@@ -187,7 +187,7 @@ A bespoke Corr Mhóna navicon was created for the site, using [??](). Social med
 - **Copyright Text**  
     This text only appears on tablet or desktop, as it was decided that the **Social Media** links looked better centralised by themeselves on mobile.
 
-#### Desktop
+#### Desktop Changes
 
 - **Translucent Navbar**  
     Though the original wireframes show a cream-coloured background for the **Navbar**, a translucent background was chosen for the finished site, as this compliments the parchement style of the **Hero Image** and **Banner Logo**.  This is not visible on mobile, where the **Navbar** becomes a **Burger Menu Button**.
@@ -335,7 +335,7 @@ All the technologies used to create this project are listed below, along with th
 
 ### [**ARIA Checker**](http://wave.webaim.org/)
 
-- I used **Wave** (Web Accessibility Evaluation Tool) to check that my  code was accessible to all users.
+- I used **Wave** (Web Accessibility Evaluation Tool) to check that my code was accessible to all users.
 
 ___
 
@@ -413,7 +413,7 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
 - **Biography Section**:
     1. Go to the **Navbar** on any page.
     2. Click on the [**Biography**](bio.html) {'The Band'} link.
-    2. Scroll down to the **Biography Section** of the page.
+    3. Scroll down to the **Biography Section** of the page.
 
 #### Contacting the Band
 
