@@ -61,6 +61,7 @@ A variety of features have been implemented already, and there are several more 
     - [Font Awesome](#font-awesome)
     - [HTML Code Checker](#html-code-checker)
     - [CSS Code Checker](#css-code-checker)
+    - [ARIA Checker](#aria-checker)
 
 4. [Testing](#testing)
     - [Developer Tools](#developer-tools)
@@ -135,11 +136,11 @@ I used Adobe XD to design and create **Wireframes** for the site. It was decided
 
 #### Basic Wireframes
 
-The basic **Wireframes** are available within this repository in two PDFs; one for [Mobile](assets/wireframes/wireframes-mobile.pdf) and one for [Desktop](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1), with some changes (see [**Design Changes**](#design-changes)).
+The basic **Wireframes** are available within this repository in two PDFs; one for [**Mobile**](#assets/wireframes/wireframes-mobile.pdf) and one for [**Desktop**](#assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1), with some changes (see [**Design Changes**](#design-changes)).
 
 #### Full Asset Mockups
 
-The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The mobile mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the desktop version is [here](assets/wireframes/mockups-desktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. Final PDFs were of such high quality (due the size of the art assets) that I had to resize them before I uploaded them to the repository.
+The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The **Mobile** mockup can be found [here](#assets/wireframes/mockups-mobile.pdf) and the **Desktop** version is [here](#assets/wireframes/mockups-desktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. Final PDFs were of such high quality (due the size of the art assets) that I had to resize them before I uploaded them to the repository.
 
 ### **Design Choices**
 
@@ -308,7 +309,7 @@ All the technologies used to create this project are listed below, along with th
     - [**Buttons**](#https://getbootstrap.com/docs/4.0/components/buttons/)
     - [**Contact Form**](#https://getbootstrap.com/docs/4.0/components/forms/)
 
-### [**Canva**](#https://www.canva.com)
+### [**Canva**](https://www.canva.com)
 
 - I found my colour palette by uploading the new album [**Cover Art**](#assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
 
@@ -331,6 +332,10 @@ All the technologies used to create this project are listed below, along with th
 ### [**CSS Auto-prefixer**](#https://autoprefixer.github.io)
 
 - The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
+
+### [**ARIA Checker**](http://wave.webaim.org/)
+
+- I used **Wave** (Web Accessibility Evaluation Tool) to check that my  code was accessible to all users.
 
 ___
 
