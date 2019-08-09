@@ -343,13 +343,15 @@ ___
 
 ### **Developer Tools**
 
-I tested the site in **Developer Tools** on three internet browsers (**Chrome**, **Firefox** & **Internet Explorer**). Bugs and errors were tackled successfully in this way throughout the development process.
+I tested the site in **Developer Tools** on four internet browsers (**Chrome**, **Firefox**,  **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process.
 
 - [**Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds)
 
 - [**Firefox**](https://www.mozilla.org/en-US/firefox/new/)
 
 - [**Internet Explorer**](https://www.microsoft.com/en-ie/download/internet-explorer.aspx)
+
+- [**Safari**](https://www.apple.com/lae/safari/)
 
 ### **Media Queries**
 
