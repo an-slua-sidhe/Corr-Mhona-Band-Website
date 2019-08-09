@@ -158,7 +158,7 @@ I used [**Google Fonts**](https://fonts.google.com/) to find a font for the site
 
 #### Icons
 
-A bespoke Corr Mhóna navicon was created for the site, using [??](). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
+A Corr Mhóna navicon was created for the site using the bands [Offical Logo](assets/images/favicon.jpg). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
 
 ### **Design Changes**
 
@@ -312,10 +312,6 @@ All the technologies used to create this project are listed below, along with th
 ### [**Canva**](https://www.canva.com)
 
 - I found my colour palette by uploading the new album [**Cover Art**](assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
-
-### [**Favicon**](??)
-
-- ??
 
 ### [**Font Awesome**](https://fontawesome.com)
 
