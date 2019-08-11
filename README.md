@@ -339,7 +339,7 @@ ___
 
 ### **Developer Tools**
 
-I tested the site in **Developer Tools** on four internet browsers (**Chrome**, **Firefox**,  **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process.
+I tested the site in **Developer Tools** on four internet browsers (**Chrome**, **Firefox**,  **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode**. I also tested the site with **Android OS** on a **Galaxy A5** and a **Huawei Lyo L01**.
 
 - [**Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds)
 
@@ -461,10 +461,14 @@ ___
 ### **Content**
 
 - All content for the site is **Copyright Corr Mhóna 2019**, and the band are the sole owners of this property.
+- The content was supplied by **Corr Mhóna** and this includes all text, articles, names, lyrics and headings.
 
 ### **Media**
 
 - All Media on site is wholly owned by the **Corr Mhóna**, and may not be used without their permission.
+- All music on site is supplied by **Corr Mhóna.**
+- The **Teaser Video** is property of **Corr Mhóna**.
+- The live photos of the band were provided by Corr Mhóna as well as [**Olga Kuzmenko Photography**](https://olgakuzmenko.com/) and [**Down the Barrel Photography**](https://downthebarrelphotography.com)
 
 ### **Acknowledgements**
 
