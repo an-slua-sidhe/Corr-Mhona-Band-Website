@@ -57,7 +57,6 @@ A variety of features have been implemented already, and there are several more 
     - [Javascript](#javascript)
     - [Bootstrap](#bootstrap)
     - [Canva](#canva)
-    - [Favicon](#??)
     - [Font Awesome](#font-awesome)
     - [HTML Code Checker](#html-code-checker)
     - [CSS Code Checker](#css-code-checker)
@@ -210,7 +209,7 @@ There are four pages on the site, with a number of features appearing on each pa
     The **Navbar** turns into a **Burger Button Menu** on mobile, and this changes colour on scroll for visibility, also enabled with the same **Javascript** code.
 
 - **Gaeilge Link (Irish Language Option)**  
-     This link was coding inside the **Bootstrap Navbar** div mentioned in the previous section. The description of how it changes when scrolled can be found above. A separate Irish language **HTML** page was created for each of the four main pages ([index_ga.html](index_ga.html) e.g.). This link, available on every page, allows the user to navigate between the Irish and English versions of the site. All text (including image descriptions and alternative text), the **HTML** language setting (i.e. html lang="ga") and headings were translated into the Irish language by me. Link changes to maroon on hover, from black to white on scroll, and does not display on mobile for aesthetic reasons.
+     This link was coding inside the **Bootstrap Navbar** div mentioned in the previous section. The description of how it changes when scrolled can be found above. A separate Irish language **HTML** page was created for each of the four main pages ([index-ga.html](index-ga.html) e.g.). This link, available on every page, allows the user to navigate between the Irish and English versions of the site. All text (including image descriptions and alternative text), the **HTML** language setting (i.e. html lang="ga") and headings were translated into the Irish language by me. Link changes to maroon on hover, from black to white on scroll, and does not display on mobile for aesthetic reasons.
 
 - **Audio Player**  
     A basic **HTML Audio Player** was included to the right of the **Header**. This contains a sample from the upcoming album, which is available in both [**MP3**](assets/audio/dair.mp3) and [**OGG**](assets/audio/dair.ogg) format. Some text advertising the player can be seen beneath it. The player does not appear on the mobile version of the site. The audio player text *disappears when scrolled* so that the navbar takes up less space. This text was not included on the [**Contact**](contact.html) page as the **Navbar** is already in its scrolled form when the page loads.
