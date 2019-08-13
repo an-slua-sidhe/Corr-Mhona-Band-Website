@@ -275,62 +275,34 @@ ___
 
 All the technologies used to create this project are listed below, along with their usage. Simply click on the title for a link to the main site. When there were separate instances where a technology was used, I have listed each link below.
 
-### [**HTML**](https://en.wikipedia.org/wiki/HTML5)
+[**HTML**](https://en.wikipedia.org/wiki/HTML5) - This project's structure is based on **HTML 5**.
 
-- This project's structure is based on **HTML 5**.
+[**CSS**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - This project's style was created using **CSS 3**.
 
-### [**CSS**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+[**Adobe XD**](https://www.adobe.com/ie/products/xd.html) - The wireframes and mockups for this site were designed in **Adobe XD**.
 
-- This project's style was created using **CSS 3**.
+[**VSCode**](https://code.visualstudio.com) - All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
 
-### [**Adobe XD**](https://www.adobe.com/ie/products/xd.html)
+[**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version conrtrol. The remote repository was done through [**Github**](https://github.com).
 
-- The wireframes and mockups for this site were designed in **Adobe XD**.
+[**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -  This was used a couple of times when creating this site.
 
-### [**VSCode**](https://code.visualstudio.com)
+- There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.6
+- I also copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
 
-- All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
+[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system. I also modified several **Bootstrap** components (e.g. **Navbar**, **Buttons**,**Contact Form**).
 
-### [**Github**](https://github.com)
+[**Canva**](https://www.canva.com) - I found my colour palette by uploading the new album [**Cover Art**](assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
 
-- Versioning of this project was done through **Github**.
+[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**. I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
 
-### [**Javascript**](https://en.wikipedia.org/wiki/JavaScript)
+[**HTML Code Checker**](https://validator.w3.org) - I checked my HTML with the **W3C Markup Validation Service**
 
-- **Javascript** was used a couple of times when creating this site.
-    - There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.6
-    - I also copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
+[**CSS Code Checker**](https://jigsaw.w3.org/css-validator) - I checked my CSS with the **W3C CSS Validation Service**
 
-### [**Bootstrap**](https://getbootstrap.com)
+[**CSS Auto-prefixer**](https://autoprefixer.github.io) - The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
 
-- The site was built using **Bootstrap's** grid system. I also modified several **Bootstrap** components.
-    - [**Navbar**](https://getbootstrap.com/docs/4.0/components/navbar/)
-    - [**Buttons**](https://getbootstrap.com/docs/4.0/components/buttons/)
-    - [**Contact Form**](https://getbootstrap.com/docs/4.0/components/forms/)
-
-### [**Canva**](https://www.canva.com)
-
-- I found my colour palette by uploading the new album [**Cover Art**](assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
-
-### [**Font Awesome**](https://fontawesome.com)
-
-- The **Social Media Icons** were supplied using **Font Awesome**. I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
-
-### [**HTML Code Checker**](https://validator.w3.org)
-
-- I checked my HTML with the **W3C Markup Validation Service**
-
-### [**CSS Code Checker**](https://jigsaw.w3.org/css-validator)
-
-- I checked my CSS with the **W3C CSS Validation Service**
-
-### [**CSS Auto-prefixer**](https://autoprefixer.github.io)
-
-- The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
-
-### [**ARIA Checker**](http://wave.webaim.org/)
-
-- I used **Wave** (Web Accessibility Evaluation Tool) to check that my code was accessible to all users.
+[**ARIA Checker**](http://wave.webaim.org/) - I used **Wave** (Web Accessibility Evaluation Tool) to check that my code was accessible to all users.
 
 ___
 
