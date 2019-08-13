@@ -80,7 +80,8 @@ A variety of features have been implemented already, and there are several more 
     - [Outstanding Bugs](#outstanding-bugs)
 
 5. [Deployment](#deployment)
-
+        - [Local](#local)
+        - [Remote](#remote)
 6. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -411,6 +412,8 @@ ___
 
 ## **Deployment**
 
+### **Local**
+
 - This project is deployed live on [**Github Pages**](https://an-slua-sidhe.github.io/milestone-1).
 
 - You can run the code in your chosen local **Integrated Development Environment** (**IDE**, e.g. [**VS Code**](https://code.visualstudio.com), [**AWS CLoud9**](https://aws.amazon.com/cloud9)).
@@ -425,6 +428,48 @@ ___
         ```
         git init
         ```
+    6. You can check the state of your repository after initialising it by using this command:
+        ```
+        git status
+        ```
+
+### **Remote**
+
+- To push to code to a remote repository, follow the steps below (I use **Github** as an example).
+
+    1. After using the command 'git status' (see step 6 above) in the command line, check that the console reads:
+
+        ```
+        Nothing to commit
+        working tree clean
+        ```
+
+    2. Next, link your remote repository. I will use **Github** as an example here. Open your Github account and select *Repositories*. At the top right of the screen select *New*.
+
+    3. Give your repository a name. Keep it short and avoid underscores.
+
+    4. You can now choose a few different ways to link the local and remote repositories. The one we want here is "…*or push an existing repository from the command line*". Copy the code this option gives you and paste it into your command line. It should look something like this:
+
+        ```
+        git remote add origin https://github.com/an-slua-sidhe/milestone-1
+        git push -u origin master
+        ```
+
+    5. Now you can push any changes from the command line with:
+
+        ```
+        git push
+        ```
+    6. If you check the status of of your local repository now (using 'git status') it should give you something like this:
+
+        ```
+        On branch master
+        Your branch is up-to-date with 'origin/master'.
+        nothing to commit, working tree clean
+        ```
+
+    7. Finally, to deploy the code live with **Github Pages**, open the repository in your **Github** account and select '*settings*' at the top right of the page. Scroll down to the *Github Pages* section. Click on the '*None*' button. Select the correct branch from the menu. Now click on the URL link to visit the deployed site.
+
 ___
 
 ## **Credits**
