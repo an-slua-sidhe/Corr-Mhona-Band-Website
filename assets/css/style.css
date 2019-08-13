@@ -1,4 +1,4 @@
-/* ----------------------------------Meta Level */
+/* Meta Level */
 
 @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
 body {
@@ -13,7 +13,7 @@ ul {
     margin-bottom: 0;
 }
 
-/* ----------------------------------The Header */
+/* The Header */
 
 .jumbotron {
     position: relative;
@@ -119,12 +119,9 @@ ul {
     height: auto;
 }
 
-/* ----------------------------------Navbar */
+/* Navbar */
 
 .navbar-default {
-    /* margin: 0; */
-    /* padding: 0; */
-    /* width: 100vw; */
     background: transparent;
     transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
@@ -167,7 +164,7 @@ ul {
     color: #A51723;
 }
 
-/* ----------------------------------The Section */
+/* The Section */
 
 .section-container {
     display: block;
@@ -197,7 +194,7 @@ ul {
     margin: 0;
 }
 
-/* --------------Home and Bio Section */
+/* Home and Bio Section */
 
 .media-container {
     background-color: #73715F;
@@ -281,7 +278,7 @@ ul {
     padding: 1.5em;
 }
 
-/* --------------Disc Section */
+/* Disc Section */
 
 .disc-container {
     background-color: #73715F;
@@ -355,7 +352,7 @@ ul {
     margin: 0;
 }
 
-/* --------------Contact Section */
+/* Contact Section */
 
 .contact-row {
     margin: 0;
@@ -396,7 +393,7 @@ form button.btn {
     margin-bottom: 1.5em;
 }
 
-/* ----------------------------------The Footer */
+/* The Footer */
 
 footer {
     height: 4em;
@@ -425,9 +422,9 @@ footer {
     color: #A51723;
 }
 
-/* ----------------------------------Media Queries */
+/* Media Queries */
 
-/* --------------------Heights */
+/* Heights */
 
 @media (min-height: 1000px) {
     .cta-text {
@@ -435,9 +432,9 @@ footer {
     }
 }
 
-/* --------------------Widths */
+/* Widths */
 
-/* ----------Larger Resolutions */
+/* Larger Resolutions */
 
 @media (min-width: 4000px) {
     body {
@@ -829,7 +826,7 @@ footer {
     }
 }
 
-/* ----------Smaller Resolutions */
+/* Smaller Resolutions */
 
 @media (min-width: 992px) {
     .navbar .navbar-nav .nav-item {
