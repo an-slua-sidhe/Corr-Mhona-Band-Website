@@ -299,7 +299,7 @@ All the technologies used to create this project are listed below, along with th
 ### [**Javascript**](https://en.wikipedia.org/wiki/JavaScript)
 
 - **Javascript** was used a couple of times when creating this site.
-    - There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
+    - There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.6
     - I also copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
 
 ### [**Bootstrap**](https://getbootstrap.com)
@@ -315,7 +315,7 @@ All the technologies used to create this project are listed below, along with th
 
 ### [**Font Awesome**](https://fontawesome.com)
 
-- The **Social Media Icons** were supplied using **Font Awesome**.
+- The **Social Media Icons** were supplied using **Font Awesome**. I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
 
 ### [**HTML Code Checker**](https://validator.w3.org)
 
