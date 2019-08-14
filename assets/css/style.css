@@ -188,6 +188,8 @@ ul {
 }
 
 /* Home and Bio Section */
+/* Home and Bio pages share classes, 
+whereas the Disc and Contact pages have their own, see below */
 
 .media-container {
     background-color: #73715F;
@@ -416,6 +418,12 @@ footer {
 }
 
 /* Media Queries */
+/* -Separated between Heights and Widths.
+-Widths are divided into larger and and Smaller Widths.
+-Comment headings for styles that target specific pages or 
+sections (e.g. Disc, Contact, Footer etc.) are included 
+within the Media Queries themselves. */
+
 
 /* Heights */
 
@@ -446,11 +454,11 @@ footer {
     .media-card iframe {
         height: 18em;
     }
-    /* ----------Disc */
+    /* Disc */
     .disc-container {
         font-size: 130%;
     }
-    /* ----------Contact */
+    /* Contact */
     .contact-logo {
         display: none;
     }
@@ -494,7 +502,7 @@ footer {
     #contact-btn button {
         font-size: .7em;
     }
-    /* ----------Footer */
+    /* Footer */
     .social-media-links li a i {
         margin-top: .3em;
         margin-left: .8em;
@@ -525,7 +533,7 @@ footer {
     .media-card iframe {
         height: 18em;
     }
-    /* ----------Contact Section */
+    /* Contact Section */
     .contact-logo {
         display: none;
     }
@@ -569,7 +577,7 @@ footer {
     #contact-btn button {
         font-size: .7em;
     }
-    /* ----------Footer */
+    /* Footer */
     .social-media-links li a i {
         margin-top: .2em;
         margin-left: .6em;
@@ -577,14 +585,14 @@ footer {
 }
 
 @media (min-width: 3000px) and (max-width: 3499px) {
-    /* ----------Disc Section */
+    /* Disc Section */
     .disc-container {
         font-size: 120%;
     }
 }
 
 @media (min-width: 2500px) and (max-width: 2999px) {
-    /* ----------Disc Section */
+    /* Disc Section */
     .disc-container {
         font-size: 130%;
     }
@@ -607,7 +615,7 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-    /* ----------Contact Section */
+    /* Contact Section */
     .contact-logo {
         display: none;
     }
@@ -651,7 +659,7 @@ footer {
     #contact-btn button {
         font-size: .7em;
     }
-    /* ----------Footer */
+    /* Footer */
     .social-media-links li a i {
         margin-top: .1em;
         margin-left: .5em;
@@ -659,7 +667,7 @@ footer {
 }
 
 @media (min-width: 1750px) and (max-width: 1999px) {
-    /* ----------Disc Section */
+    /* Disc Section */
     .disc-container {
         font-size: 120%;
     }
@@ -698,7 +706,7 @@ footer {
     .media-card iframe {
         height: 13em;
     }
-    /* ----------Contact Section */
+    /* Contact Section */
     .contact-logo {
         display: none;
     }
@@ -748,14 +756,14 @@ footer {
     #contact-btn button {
         font-size: .8em;
     }
-    /* ----------Footer */
+    /* Footer */
     .social-media-links li a i {
         margin-left: .3em;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1499px) {
-    /* ----------Disc Section */
+    /* Disc Section */
     .disc-card-heading {
         padding-left: 1%;
     }
@@ -783,7 +791,7 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-    /* ----------Contact Section */
+    /* Contact Section */
     #input-email {
         margin: auto;
         width: 55%;
@@ -804,7 +812,7 @@ footer {
     .music-container {
         margin-right: -20px;
     }
-    /* ----------Disc Section */
+    /* Disc Section */
     .disc-container {
         font-size: 120%;
     }
@@ -837,7 +845,7 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-    /* ----------Contact Section */
+    /* Contact Section */
     #input-email {
         margin: auto;
         width: 70%;
@@ -863,7 +871,7 @@ footer {
     .media-card iframe {
         height: 15em;
     }
-    /* ----------Disc Section */
+    /* Disc Section */
     .disc-card-heading h3 {
         text-align: center;
         color: #F2EED8;
@@ -881,12 +889,12 @@ footer {
         margin: 0;
         padding: 1.5em;
     }
-    /* ----------Contact Section */
+    /* Contact Section */
     #input-email {
         margin: auto;
         width: 80%;
     }
-    /* ----------Footer */
+    /* Footer */
     .copyright-text {
         padding-top: 0px;
     }
