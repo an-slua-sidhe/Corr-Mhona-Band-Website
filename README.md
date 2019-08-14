@@ -274,18 +274,24 @@ All the technologies used to create this project are listed below, along with th
 
 [**VSCode**](https://code.visualstudio.com) - All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
 
-[**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version conrtrol. The remote repository was done through [**Github**](https://github.com).
+[**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version conrtrol. 
+ 
+ - The remote repository was done through [**Github**](https://github.com).
 
 [**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -  This was used a couple of times when creating this site.
 
 - There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.6
 - I also copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
 
-[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system. I also modified several **Bootstrap** components (e.g. **Navbar**, **Buttons**,**Contact Form**).
+[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system. 
+
+- I also modified several **Bootstrap** components (e.g. **Navbar**, **Buttons**,**Contact Form**).
 
 [**Canva**](https://www.canva.com) - I found my colour palette by uploading the new album [**Cover Art**](assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
 
-[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**. I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
+[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**. 
+
+- I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
 
 [**HTML Code Checker**](https://validator.w3.org) - I checked my HTML with the **W3C Markup Validation Service**
 
@@ -388,7 +394,7 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
 There are a few errors and bugs that are worth noting. Some are due to a lack of functionality whereas others are due to a particular platform or medium reacting differently to the code.
 
 - **Contact Form Inactive**  
-    This is still currently inactive until more Javascript functionality is enabled on the site.
+    This is still currently inactive until more Javascript functionality is enabled on the site. The user can input data which will be validated, but there is no email or server set up to recieve the information.
 
 - **Galaxy A5 Scrolling Issue**  
 
