@@ -34,7 +34,7 @@ A variety of features have been implemented already, and there are several more 
     - [Design Changes](#design-changes)
         - [General Changes](#general-changes)
         - [Mobile Changes](#mobile-changes)
-        - [Desktop Changes](#desktop-changes)
+        - [Tablet & Desktop Changes](#tablet-&-desktop-changes)
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
@@ -49,18 +49,6 @@ A variety of features have been implemented already, and there are several more 
         - [Flip Cards](#flip-cards)
 
 3. [Technologies Used](#technologies-used)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [Adobe XD](#adobe-xd)
-    - [VSCode](#vscode)
-    - [Github](#github)
-    - [Javascript](#javascript)
-    - [Bootstrap](#bootstrap)
-    - [Canva](#canva)
-    - [Font Awesome](#font-awesome)
-    - [HTML Code Checker](#html-code-checker)
-    - [CSS Code Checker](#css-code-checker)
-    - [ARIA Checker](#aria-checker)
 
 4. [Testing](#testing)
     - [Developer Tools](#developer-tools)
@@ -132,17 +120,19 @@ There are a number of different types of user which may visit the site, each wit
 
 ### **Wireframes**
 
-I used Adobe XD to design and create **Wireframes** for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on the colour palette, theme and artistic direction of the site.
+I used Adobe XD to design and create **Wireframes** for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on the colour palette, theme and artistic direction of the site. The wireframes can be found as PDFs in this repository (see below for links).
 
 #### Basic Wireframes
 
-The basic **Wireframes** are available within this repository in two PDFs; one for [**Mobile**](assets/wireframes/wireframes-mobile.pdf) and one for [**Desktop**](assets/wireframes/wireframes-desktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1), with some changes (see [**Design Changes**](#design-changes)).
+The basic **Wireframes** are available within this repository in two PDFs; one for [**Mobile**](assets/wireframes/wireframes-mobile.pdf) and one for [**Tablet & Desktop**](assets/wireframes/wireframes-tabletAndDesktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1), with some changes (see [**Design Changes**](#design-changes)).
 
 #### Full Asset Mockups
 
-The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the **Desktop** version is [here](assets/wireframes/mockups-desktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. Final PDFs were of such high quality (due the size of the art assets) that I had to resize them before I uploaded them to the repository.
+The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the **Tablet & Desktop** version is [here](assets/wireframes/mockups-tabletAndDesktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. The final mockup PDFs were of very high quality (due the size of the art assets), and it may be necessary to download them to view them.
 
 ### **Design Choices**
+
+The **Tablet** and **Desktop** design for this site is identical, whereas the **Mobile** design is quite different. I will explain the reason behind my design choices below under four headings; **Images**, **Colours**, **Fonts** and **Icons**.
 
 #### Images
 
@@ -187,7 +177,7 @@ A Corr Mhóna navicon was created for the site using the bands [Offical Logo](as
 - **Copyright Text**  
     This text only appears on tablet or desktop, as it was decided that the **Social Media** links looked better centralised by themeselves on mobile.
 
-#### Desktop Changes
+#### Tablet & Desktop Changes
 
 - **Translucent Navbar**  
     Though the original wireframes show a cream-coloured background for the **Navbar**, a translucent background was chosen for the finished site, as this compliments the parchement style of the **Hero Image** and **Banner Logo**.  This is not visible on mobile, where the **Navbar** becomes a **Burger Menu Button**.
@@ -219,7 +209,7 @@ There are four pages on the site, with a number of features appearing on each pa
     All other pages besides the **Home** page display a [**Banner Logo**](assets/images/banner-logo1.jpg) instead of the **Hero Image**. On the [**Contact**](contact.html) page the **Banner Logo** is not displayed above 1500px (see [**Media Queries**](#media-queries) below).
 
 - **Section**  
-    There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**](index.html) and [**Biography**](bio.html) pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile of desktop (see [**Deployment**](#deployment)). The [**Contact**](contact.html) and [**Discography**](disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
+    There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**](index.html) and [**Biography**](bio.html) pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile or tablet/desktop (see [**Deployment**](#deployment)). The [**Contact**](contact.html) and [**Discography**](disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
 
 - **Footer**
     A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
@@ -244,7 +234,7 @@ There are four pages on the site, with a number of features appearing on each pa
     This [element](bio.html) contains photos of the four band members and their names. It displays to the left for desktop and to the bottom on mobile and tablet.
 
 - **Biography Section**  
-    This is an [element](bio.html) which contains a large amount of text. All links within the text navigate to their respective targets. The **Biography Section** displays to the right for desktop and to the top on mobile and tablet.
+    This is an [element](bio.html) which contains a large amount of text. All links within the text navigate to their respective targets. The **Biography Section** displays to the top on mobile and to the right for tablet and desktop.
 
 #### Discography
 
@@ -348,7 +338,7 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
 
 #### Listening to the New Album
 
-- **Audio Player** (Desktop):
+- **Audio Player** (Tablet & Desktop):
     1. Go to the [**Home**](index.html) page.
     2. Click on the **Audio Player** on the top right of the screen.
 
