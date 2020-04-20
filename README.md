@@ -89,10 +89,10 @@ There are a number of different types of user which may visit the site, each wit
 
 #### The Band Member
 
-- As band member, I can easily put the latest information up on the **News** section of the [**Home**](index.html) page, so that fans and promoters are kept updated.
-- As band member, I can embed media from the latest project in the **Media** section of the [**Home**](index.html) page, to make the latest release more exciting and interesting for our fans.
-- As band member, I can advertise that the band is available for gigs and festivals through the [**Contact**](contact.html) page of the site.
-- As band member, I will eventually be able to add merchandise and CDs to the **Shop** page, so I can sell directly to the fans.
+- As a band member, I can easily put the latest information up on the **News** section of the [**Home**](index.html) page, so that fans and promoters are kept updated.
+- As a band member, I can embed media from the latest project in the **Media** section of the [**Home**](index.html) page, to make the latest release more exciting and interesting for our fans.
+- As a band member, I can advertise that the band is available for gigs and festivals through the [**Contact**](contact.html) page of the site.
+- As a band member, I will eventually be able to add merchandise and CDs to the **Shop** page, so I can sell directly to the fans.
 
 #### The Music Fan
 
@@ -105,13 +105,13 @@ There are a number of different types of user which may visit the site, each wit
 
 #### The Promoter
 
-- As promoter, I can check the **News** section to see if the band are currently active and looking for gigs.
-- As promoter, I can use the [**Contact**](contact.html) page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
+- As a promoter, I can check the **News** section to see if the band are currently active and looking for gigs.
+- As a promoter, I can use the [**Contact**](contact.html) page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
 
 #### The Journalist
 
-- As journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the [**Home**](index.html), [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages of the site.
-- As journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages.
+- As a journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the [**Home**](index.html), [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages of the site.
+- As a journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages.
 
 #### The Record Label
 
