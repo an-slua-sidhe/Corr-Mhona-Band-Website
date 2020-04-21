@@ -27,7 +27,7 @@ A variety of features have been implemented already, and there are several more 
         - [Basic Wireframes](#basic-wireframes)
         - [Full Asset Mockups](#full-asset-mockups)
     - [Design Choices](#design-choices)
-        - [Images](#images)
+        - [Images](#im6ages)
         - [Colours](#colours)
         - [Fonts](#fonts)
         - [Icons](#icons)
@@ -128,7 +128,7 @@ The basic **Wireframes** are available within this repository in two PDFs; one f
 
 #### Full Asset Mockups
 
-The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the **Tablet & Desktop** version is [here](assets/wireframes/mockups-tabletAndDesktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. The final mockup PDFs were of very high quality (due the size of the art assets), and it may be necessary to download them to view them.
+The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the **Tablet & Desktop** version is [here](assets/wireframes/mockups-tabletAndDesktop.pdf). The main body of work here was deciding which assets to place where, as there was an abundance of options. The final mockup PDFs were of very high quality (due the size of the art assets), and it may be necessary to download them to view them.
 
 ### **Design Choices**
 
@@ -144,7 +144,7 @@ I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), a
 
 #### Fonts
 
-I used [**Google Fonts**](https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section. The back up font is *Sans-serif*.
+I used [**Google Fonts**](https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of a section. The back up font is *Sans-serif*.
 
 #### Icons
 
@@ -166,7 +166,7 @@ A Corr Mhóna navicon was created for the site using the bands [Offical Logo](as
 #### Mobile Changes
 
 - **CTA Position**  
-    Though the original wireframe design had the molbile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
+    Though the original wireframe design had the mobile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
 
 - **Audio Player**  
     The **Audio Player** did not look well on mobile resolutions, and was removed.
@@ -209,7 +209,7 @@ There are four pages on the site, with a number of features appearing on each pa
     All other pages besides the **Home** page display a [**Banner Logo**](assets/images/banner-logo1.jpg) instead of the **Hero Image**. On the [**Contact**](contact.html) page the **Banner Logo** is not displayed above 1500px (see [**Media Queries**](#media-queries) below).
 
 - **Section**  
-    There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**](index.html) and [**Biography**](bio.html) pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile or tablet/desktop (see [**Deployment**](#deployment)). The [**Contact**](contact.html) and [**Discography**](disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
+    There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**](index.html) and [**Biography**](bio.html) pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile or tablet/desktop. The [**Contact**](contact.html) and [**Discography**](disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
 
 - **Footer**
     A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
@@ -217,7 +217,7 @@ There are four pages on the site, with a number of features appearing on each pa
 #### Home
 
 - **Hero Image**  
-    This [image](assets/images/dair-art.jpg) is the new album cover, and provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platorms.
+    This [image](assets/images/dair-art.jpg) is the new album cover, and provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platforms.
 
 - **Call to Action (CTA)**  
     There is **CTA** at the bottom of the [**Landing Page**](index.html) envelope. This tells users that a new album is coming soon, and provides a link for them to click to get more information, bringing them to the **News Section** of the page.

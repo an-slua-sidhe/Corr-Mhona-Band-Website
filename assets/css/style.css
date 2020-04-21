@@ -690,7 +690,7 @@ within the Media Queries themselves. */
     body {
         font-size: 1.5em;
     }
-    h1, h2, h3, h4 {
+    html {
         font-size: 1.3em;
     }
     .music-container {
